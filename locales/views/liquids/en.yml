@@ -3,42 +3,42 @@ en:
   views:
     liquids:
       github:
-        view: View on GitHub
+        view: Дивитися на GitHub
       medium:
-        logo: Medium Logo
+        logo: Medium лого
       poll:
-        show_results: Just show me the results
+        show_results: Просто покажіть мені результати
       reddit:
-        author: 'Author: %{author}'
-        see: See Full Post
+        author: 'Автор: %{author}'
+        see: Дивитись весь пост
       stackexchange:
         answer:
-          text_html: "%{answer} re: %{title}"
-          answer: answer
-        answers: 'Answers: %{count}'
-        comments: 'Comments: %{count}'
+          text_html: "%{answer} на: %{title}"
+          answer: відповідь
+        answers: 'Відповіді: %{count}'
+        comments: 'Коментарі: %{count}'
         open:
-          answer: Open Full Answer
-          article: Open Full Article
-          question: Open Full Question
+          answer: Відкрити повну відповідь
+          article: Відкрити повну статтю
+          question: Відкрити повне питання
       twitter:
-        view: View on Twitter
+        view: Переглянути в Twitter
       user_subscription:
         confirm:
-          subtitle: Confirm subscribe
-          button_text: Confirm subscription
-          cancel_text: Cancel
-          text_html: "You'll share your email address, username, name, and %{community} profile URL with %{username}. Once you do this, you cannot undo this."
-        logged_out: "You must first sign in to %{community}."
-        sign_in: Sign In
+          subtitle: Підтвердити підписку
+          button_text: Підтвердити підписку
+          cancel_text: Скасувати
+          text_html: "Ви поділіться своєю адресою електронної пошти %{email}, ім'ям користувача, ім'ям та URL-адресою профілю з %{username}. Як тільки ви це зробите, ви не зможете це скасувати."
+        logged_out: "Ви повинні спочатку увійти до сайту %{community}."
+        sign_in: Увійти
         subscribe:
           apple:
-            button: Subscribe
-            desc_html: "Hey, there! It looks like when you created your %{community} account you signed up with Apple using a private relay email address. If you'd like to subscribe, please %{update} first to a different email address."
-            update: update your email address in Settings
-          button: Subscribe
-          desc_html: "You'll subscribe with the email address associated with your %{community} account. To use a different email address, you can %{update}."
-          update: update your email address in Settings
+            button: Підписатися
+            desc_html: "Привіт! Схоже, що при створенні облікового запису %{community} ви використовували Apple та приватну адресу електронної пошти. Якщо ви бажаєте підписатися, будь ласка, спочатку %{update} адресу електронної пошти."
+            update: оновити адресу електронної пошти у Налаштуваннях
+          button: Підписатися
+          desc_html: "Ви підписуєтеся за допомогою %{email} адреси електронної пошти, пов'язаної з вашим обліковим записом. Щоб використовувати іншу адресу електронної пошти, ви можете %{update}."
+          update: оновити адресу електронної пошти у Налаштуваннях
       wikipedia:
-        logo: Wikipedia Logo
-        view: View on Wikipedia
+        logo: Wikipedia лого
+        view: Дивитися на Wikipedia

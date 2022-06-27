@@ -2,5 +2,5 @@
 en:
   concerns:
     image_uploads:
-      too_long: filename too long - the max is %{max} characters.
-      is_not_file: invalid file type. Please upload a valid image.
+      too_long: ім'я файлу занадто довге – максимальне значення %{max} символів.
+      is_not_file: неприпустимий тип файлу. Завантажте правильне зображення.

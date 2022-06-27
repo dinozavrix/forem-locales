@@ -3,29 +3,29 @@ en:
   views:
     reactions:
       category:
-        hands: Hands
-        like: Like
-        readinglist: Reading list
-        thinking: Thinking
-        thumbsup: Thumbs up
-        thumbsdown: Thumbs down
-        unicorn: Unicorn
-        vomit: Flag
+        hands: Руки
+        like: Лайк
+        readinglist: Обране
+        thinking: Думає
+        thumbsup: Палець вгору
+        thumbsdown: Палець вниз
+        unicorn: Єдиноріг
+        vomit: Поскаржитись
       summary:
         count_html:
-          one: "%{count}%{start}\_reaction%{end}"
-          other: "%{count}%{start}\_reactions%{end}"
-        title: Reactions
+          one: "%{count}%{start}\_реакція%{end}"
+          other: "%{count}%{start}\_реакцій%{end}"
+        title: Реакції
       like:
-        title: Heart
-        aria_label: Like
-        icon: Favorite heart button
-        text: Like
+        title: Вподобайка
+        aria_label: Вподобайка
+        icon: Улюблена кнопка із серцем
+        text: Вподобайка
       unicorn:
-        title: Unicorn
-        aria_label: React with unicorn
+        title: Єдиноріг
+        aria_label: Реакція з єдинорогом
       readingList:
-        title: Save
-        aria_label: Add to reading list
-        icon: Save button
-        text: Save
+        title: Зберегти
+        aria_label: Додати до обраного
+        icon: Кнопка зберегти
+        text: Зберегти

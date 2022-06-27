@@ -2,154 +2,155 @@
 en:
   admin:
     articles_controller:
-      saved: Article saved!
-      pinned: Article Pinned!
+      saved: Стаття збережена!
+      pinned: Стаття закріплена!
+      unpinned: Стаття відкріплена!
     badge_achievements_controller:
-      deleted: Badge achievement has been deleted!
-      rewarded: Badges are being rewarded. The task will finish shortly.
-      congrats: Congrats!
-      award: Please choose a badge to award
-      wrong: Something went wrong.
+      deleted: Досягнення значка видалено!
+      rewarded: Значки надано. Незабаром завдання завершиться
+      congrats: Вітаю!
+      award: Будь ласка, виберіть значок для нагородження
+      wrong: Щось пішло не так.
     badges_controller:
-      created: Badge has been created!
-      updated: Badge has been updated!
+      created: Значок створено!
+      updated: Значок оновлено!
     broadcasts_controller:
-      created: Broadcast has been created!
-      deleted: Broadcast has been deleted!
-      updated: Broadcast has been updated!
-      wrong: Something went wrong with deleting the broadcast.
+      created: Трансляцію створено!
+      deleted: Трансляцію видалено!
+      updated: Трансляцію оновлено!
+      wrong: Сталася помилка з видаленням трансляції.
     consumer_apps_controller:
-      created: "%{app} has been created!"
-      deleted: "%{app} has been deleted!"
-      updated: "%{app} has been updated!"
-      wrong: Something went wrong with deleting %{app}.
+      created: "%{app} створено!"
+      deleted: "%{app} видалено!"
+      updated: "%{app} оновлено!"
+      wrong: Сталася помилка з видаленням %{app}.
     display_ads_controller:
-      created: Display Ad has been created!
-      deleted: Display Ad has been deleted!
-      updated: Display Ad has been updated!
-      wrong: Something went wrong with deleting the Display Ad.
+      created: Медійне оголошення створено!
+      deleted: Медійне оголошення видалено!
+      updated: Медійне оголошення оновлено!
+      wrong: Сталася помилка з видаленням медійного оголошення.
     gdpr_delete_requests_controller:
-      deleted: Successfully marked as deleted 
+      deleted: Успішно позначено як видалене
     extensions_controller:
-      update_success: Extensions have been updated.
+      update_success: Розширення оновлено.
     html_variants_controller:
       fork: "%{name} FORK-%{rand}"
-      created: HTML Variant has been created!
-      deleted: HTML Variant has been deleted!
-      updated: HTML Variant has been updated!
-      wrong: Something went wrong with deleting the HTML Variant.
+      created: HTML Variant створено!
+      deleted: HTML Variant видалено!
+      updated: HTML Variant оновлено!
+      wrong: Щось пішло не так із видаленням HTML Variant.
     invitations_controller:
-      duplicate: 'Invitation was not sent. There is already a registered user with the email: %{email}'
-      create_success: The invite has been sent to the user's email.
-      destroy_success: Invite cancelled for %{email}.
-      resend_success: Invite resent to %{email}.
+      duplicate: 'Запрошення не надіслано. Вже є зареєстрований користувач з електронною адресою: %{email}'
+      create_success: Запрошення надіслано на електронну адресу користувача.
+      destroy_success: Запрошення для %{email} скасовано.
+      resend_success: Запрошення переслано на %{email}.
     listing_categories_controller:
-      created: Listing Category has been created!
-      updated: Listing Category has been updated!
-      deleted: Listing Category has been deleted!
+      created: Категорію списку створено!
+      updated: Категорію списку оновлено!
+      deleted: Категорію списку видалено!
     listings_controller:
-      updated: Listing updated successfully
-      destroyed: "'%{title}' was destroyed successfully"
-      no_credit: Not enough available credits
+      updated: Список успішно оновлено
+      destroyed: "'%{title}' успішно знищено"
+      no_credit: Недостатньо доступних кредитів
     mods_controller:
-      trusted: "%{username} now has a Trusted role!"
+      trusted: "%{username} тепер Довірений користувач!"
     navigation_links_controller:
-      deleted: Navigation Link %{link} deleted
-      created: 'Successfully created navigation link: %{link}'
-      updated: 'Successfully updated navigation link: %{link}'
+      deleted: Посилання навігації %{link} видалено
+      created: 'Успішно створено навігаційне посилання: %{link}'
+      updated: 'Успішно оновлено навігаційне посилання: %{link}'
     organization_memberships_controller:
-      not_exist: 'Organization #%{org_id} does not exist.'
-      wrong: Something went wrong with removing the user from %{org}
-      added: User was successfully added to %{org}
-      removed: User was successfully removed from %{org}
-      updated: User was successfully updated to %{type}
+      not_exist: 'Організація #%{org_id} не існує.'
+      wrong: Сталася помилка з видаленням користувача з %{org}
+      added: Користувача було успішно додано до %{org}
+      removed: Користувача було успішно видалено з %{org}
+      updated: Користувача було успішно оновлено до %{type}
     organizations_controller:
-      credit_updated: Successfully updated credits
+      credit_updated: Кредити успішно оновлені
     pages_controller:
-      updated: Page has been successfully updated.
-      created: Page has been successfully created.
-      deleted: Page has been successfully deleted.
+      updated: Сторінку успішно оновлено.
+      created: Сторінку успішно створено.
+      deleted: Сторінку успішно видалено.
       code_of_conduct:
-        title: Code of Conduct
-        description: A page that describes how to behave on this platform
+        title: Кодекс поведінки
+        description: Сторінка, яка описує, як поводитися на цій платформі
       privacy_policy:
-        title: Privacy Policy
-        description: A page that describes the privacy policy
+        title: Політика конфіденційності
+        description: Сторінка, яка описує політику конфіденційності
       terms_of_use:
-        title: Terms of Use
-        description: A page that describes the terms of use for the application
+        title: Умови використання
+        description: Сторінка, яка описує умови використання програми
     podcasts_controller:
-      new_owner_added: New owner added!
-      no_such_user: No such user
-      scheduled: "Podcast's episodes fetching was scheduled (%{title}, #%{id})"
-      updated: Podcast updated
+      new_owner_added: Додано нового власника!
+      no_such_user: Немає такого користувача
+      scheduled: "Вибір серій подкасту заплановано (%{title}, #%{id})"
+      updated: Подкаст оновлено
     profile_field_groups_controller:
-      deleted: Group %{group} deleted
-      updated: Group %{group} updated
-      created: 'Successfully created group: %{group}'
+      deleted: Група %{group} видалена
+      updated: Група %{group} оновлено
+      created: 'Групу успішно створено: %{group}'
     profile_fields_controller:
-      created: Profile field %{field} created
-      deleted: Profile field %{field} deleted
-      updated: Profile field %{field} updated
+      created: Поле профілю %{field} створено
+      deleted: Поле профілю %{field} видалено
+      updated: Поле профілю %{field} оновлено
     response_templates_controller:
-      saved: 'Response Template: "%{title}" saved successfully.'
-      updated: The response template "%{title}" was updated.
-      deleted: The response template "%{title}" was deleted.
+      saved: 'Шаблон відповіді: "%{title}" успішно збережено.'
+      updated: Шаблон відповіді "%{title}" оновлено.
+      deleted: Шаблон відповіді "%{title}" було видалено.
     secrets_controller:
-      not_in_vault: Not In Vault
-      updated: Secret %{key} was successfully updated in Vault.
+      not_in_vault: Не в сховищі
+      updated: секретний %{key} успішно оновлено у сховищі.
       value: "%{first8}******"
     settings_controller:
-      confirmation: My username is @%{username} and this action is 100% safe and appropriate.
+      confirmation: Моє ім'я користувача @%{username}, і ця дія на 100% безпечна та доречна.
     spaces_controller:
-      update_success: Space has been updated.
+      update_success: Простір оновлено.
     sponsorships_controller:
-      created: Sponsorship has been created!
-      not_destroyed: Sponsorship was not destroyed
-      updated: Sponsorship was successfully updated
-      destroyed: Sponsorship was successfully destroyed
+      created: Спонсорство створено!
+      not_destroyed: Спонсорство не було знищено
+      updated: Спонсорство успішно оновлено
+      destroyed: Спонсорство було успішно знищено
     tags:
       moderators_controller:
-        not_found: "User ID #%{user_id} was not found"
-        not_found_or: 'User ID #%{user_id} was not found, or their account has errors: %{errors}'
-        removed: "@%{username} - ID #%{user_id} was removed as a tag moderator."
-        added: "%{username} was added as a tag moderator!"
+        not_found: "Ідентифікатор користувача #%{user_id} не знайдено"
+        not_found_or: 'Ідентифікатор користувача #%{user_id} не знайдено, або його обліковий запис містить помилки: %{errors}'
+        removed: "@%{username} – ідентифікатор #%{user_id} видалено як модератор тегу."
+        added: "%{username} додано як модератор тегу!"
     tags_controller:
-      created: "%{tag_name} has been created!"
-      updated: "%{tag_name} tag successfully updated!"
-      update_fail: 'The tag update failed: %{errors}'
+      created: "%{tag_name} створено!"
+      updated: "%Тег {tag_name} успішно оновлено!"
+      update_fail: 'Не вдалося оновити тег: %{errors}'
     tools_controller:
-      article_busted: 'Article #%{article} was successfully busted'
-      user_busted: 'User #%{user} was successfully busted'
-      link_busted: "%{link} was successfully busted"
+      article_busted: 'Стаття #%{article} була успішно вилучена'
+      user_busted: 'Користувач #%{user} був успішно вилучений'
+      link_busted: "%{link} успішно вилучено"
     users_controller:
-      exported: Data exported to the %{receiver}. The job will complete momentarily.
-      email_fail: Email failed to send!
-      email_sent: Email sent!
-      verify_sent: Verification email sent!
-      full_delete_html: "@%{user} (email: %{email}, user_id: %{id}) has been fully deleted. If this is a GDPR delete, delete them from Mailchimp & Google Analytics and confirm on %{the_page}."
-      no_email: no email
-      parameter_missing: Both subject and body are required!
-      role_removed: 'Role: %{role} has been successfully removed from the user!'
-      identity_removed: The %{provider} identity was successfully deleted and backed up.
-      the_page: the page
-      banished: This user is being banished in the background. The job will complete soon.
-      unlocked: Unlocked User account!
-      unpublished: Posts are being unpublished in the background. The job will complete soon.
-      updated: User has been updated
-      credits_added: Credits have been added!
-      credits_removed: Credits have been removed.
+      exported: Дані експортуються до %{receiver}. Робота буде завершена миттєво.
+      email_fail: Не вдалося надіслати електронний лист!
+      email_sent: Електронний лист надіслано!
+      verify_sent: Електронний лист із підтвердженням надіслано!
+      full_delete_html: "@%{user} (електронна пошта: %{email}, user_id: %{id}) було повністю видалено. Якщо це видалення згідно з GDPR, видаліть їх із Mailchimp і Google Analytics та підтвердьте на %{the_page}. "
+      no_email: немає електронної пошти
+      parameter_missing: Обов'язкові і тема, і тіло!
+      role_removed: 'Роль: %{role} успішно видалено з користувача!'
+      identity_removed: ідентифікатор %{provider} успішно видалено та створено резервну копію.
+      the_page: сторінка
+      banished: Цього користувача видаляють у фоновому режимі. Робота буде завершена найближчим часом.
+      unlocked: Розблокований обліковий запис користувача!
+      unpublished: публікації дописів скасовуються у фоновому режимі. Робота буде завершена найближчим часом.
+      updated: Користувача оновлено
+      credits_added: Кредити додані!
+      credits_removed: Кредити видалено.
     welcome_controller:
       thread_content: |
         ---
-        title: Welcome Thread - v0
+        title: Вітаємо з приєднанням до %{community} - частина 1
         published: false
-        description: Introduce yourself to the community!
+        description: Розкажіть про себе!
         tags: welcome
         ---
 
-        Hey there! Welcome to %{community}!
+        Привіт! Ласкаво просимо до %{community}!
 
-        ![WELCOME TO THE INTERNET](https://slack-imgs.com/?c=1&url=http%3A%2F%2Fmedia0.giphy.com%2Fmedia%2FzhbrTTpmSCYog%2Fgiphy-downsized.gif)
+        ![WELCOME](https://acegif.com/wp-content/uploads/2021/4fh5wi/welcome-5.gif)
 
-        Leave a comment below to introduce yourself to the community!✌️
+        Залиште коментар нижче, щоб представити себе спільноті!✌️

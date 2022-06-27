@@ -3,22 +3,22 @@ en:
   views:
     actions:
       copy:
-        text: Copied to Clipboard
-        button: Copy link
+        text: Скопійовано до буфера
+        button: Копіювати посилання
       more:
-        title: More...
-        aria_label: Share post options
+        title: Ще...
+        aria_label: Поділитися
       share:
         facebook:
-          text: Share to Facebook
+          text: Поділитися у Facebook
         hackernews:
-          text: Share to Hacker News
+          text: Поділитися у Hacker News
         linkedin:
-          text: Share to LinkedIn
+          text: Поділитися у LinkedIn
         reddit:
-          text: Share to Reddit
+          text: Поділитися у Reddit
         twitter:
-          text: Share to Twitter
-          query: '"%{article}" by %{author}'
-        link: Share Post via...
-        report: Report Abuse
+          text: Поділитися у Twitter
+          query: '"%{article}" від %{author}'
+        link: Поділитися ...
+        report: Поскаржитися

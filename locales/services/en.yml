@@ -2,115 +2,116 @@
 en:
   services:
     analytics_service:
-      no_stats: You can't view this article's stats
+      no_stats: Ви не можете продивлятись статистику цієї статті
     article_with_video_creation_service:
-      unpublished_video: Unpublished Video ~ %{rand}
+      unpublished_video: Неопубліковане відео ~ %{rand}
     authentication:
       authenticator:
-        not_allowed: Sorry, but the domain for your email address is not allowed. This Forem may have limited signup to only specified email domains or blocked this specific domain from joining.
+        not_allowed: Вибачте, але домен для вашої адреси електронної пошти не дозволяється. Ця форма може мати обмежену реєстрацію лише для певних доменів електронної пошти або заблокувати приєднання цього конкретного домену.
       providers:
         apple:
           name: "%{first} %{last}"
-        not_available: Provider %{name} is not available!
-        not_enabled: Provider %{name} is not enabled!
+        not_available: Провайдер %{name} недоступний!
+        not_enabled: Провайдер %{name} не увімкнено!
     badges:
       award_beloved_comment:
-        message: "You're famous! [This is the comment](%{comment}) for which you're being recognized. 😄"
+        message: "Ви знамениті! [Це коментар](%{comment}), за яким вас впізнають. 😄"
       award_streak:
-        longest: 16 weeks! You've achieved the longest writing streak possible. This makes you eligible for special quests in the future. Keep up the amazing contributions to our community!
+        longest: 16 тижнів! Ви досягли найдовшого періоду написання статей. Це дає право на отримання спеціальних завдань у майбутньому. Продовжуйте робити крутий внесок у нашу спільноту!
         message:
-          one: "Congrats on achieving this streak! Consistent writing is hard. The next streak badge you can get is the %{count} Week Badge. 😉"
-          other: "Congrats on achieving this streak! Consistent writing is hard. The next streak badge you can get is the %{count} Week Badge. 😉"
+          one: "Вітаю з досягненням! Постійно писати - дуже складно. Наступний бейдж, який ви можете отримати - %{count} Тижневий Бейдж. 😉"
+          other: "Вітаю з досягненням! Постійно писати - дуже складно. Наступний бейдж, який ви можете отримати - %{count} Тижневий Бейдж. 😉"
       award_yearly_club:
         message:
-          one: Happy %{community} birthday! Can you believe it's been %{count} year already?!
-          other: Happy %{community} birthday! Can you believe it's been %{count} years already?!
-      congrats: Congrats!!!
-      thank_you: Thank you so much for your contributions!
+          one: Вітаємо %{community} з днем народження! Ви можете повірити, що вже минув рік?!
+          other: Вітаємо %{community} з днем народження! Ви можете повірити, що вже минув рік?!
+      congrats: Вітаю!
+      thank_you: Щиро дякую за ваш внесок!
       community_wellness:
-        first: Thank you for participating in constructive conversation! You posted two or more comments this week. Keep it up to continue the streak!
-        longest: 32 weeks! You've achieved the longest streak possible for the Community Wellness badge. Amazing job engaging in the community and keep up your amazing contributions to our community!
-        other: Congrats on achieving a %{weeks} week streak for the Community Wellness Badge! Keep the constructive comments flowing to continue the streak!
+        first: Дякуємо за участь у конструктивній бесіді! Ви розмістили два або більше коментарів цього тижня. Тож тримати, щоб продовжити серію!
+        longest: 32 тижні! Ви досягли найдовшої можливої серії для значка Community Wellness. Дивовижна робота, участь у спільноті та продовжуйте робити свій дивовижний внесок у нашу спільноту!
+        other: Вітаємо з досягненням %{weeks} тижня для піктограми здоров'я спільноти! Підтримуйте потік конструктивних коментарів, щоби продовжити серію!
     broadcasts:
       welcome_notification:
         generator:
-          welcome: 'Welcome Notification: %{key}'
+          welcome: 'Привітання: %{key}'
     error_messages:
       clean:
-        parse_error: There was a problem parsing the front-matter YAML. Perhaps you need to escape a quote or a colon or something. Email %{email} if you are having trouble.
+        parse_error: Виникла проблема з парсінгом front-matter YAML. Можливо, вам потрібно прибрати лапки, двокрапки або щось ще. Напишіть %{email}, якщо у вас виникли проблеми.
     html:
       parser:
-        enter_fullscreen_mode: Enter fullscreen mode
-        exit_fullscreen_mode: Exit fullscreen mode
+        enter_fullscreen_mode: Увійти у повноекранний режим
+        exit_fullscreen_mode: Вихід із повноекранного режиму
     markdown_processor:
       parser:
-        invalid_markdown_detected: Invalid markdown detected!
+        invalid_markdown_detected: Виявлено неприпустиму розмітку!
     moderator:
       banish_user:
-        spam_account: spam account
+        spam_account: спам-аккаунт
       manage_activity_and_roles:
-        need_super: You need super admin status to take this action
+        need_super: Для виконання цієї дії вам необхідний статус суперадміністратора.
       merge_user:
-        duplicate: The user has duplicate authentication methods on the two accounts. Please double check and delete the identity that the user is no longer using. This is usually the already-deleted social account, or the authentication method tied to the user to be deleted.
-        multiple: The user being deleted already has two or more authentication methods. Are you sure this is the right user to be deleted? If so, a super admin will need to do this from the console to be safe.
-        same_user: You cannot merge the same two user IDs
+        duplicate: У користувача дублюються методи автентифікації на двох облікових записах. Будь ласка, перевірте та видаліть ідентифікатор, який користувач більше не використовує. Зазвичай це вже віддалений соціальний обліковий запис або метод аутентифікації, прив'язаний до користувача, що видаляється.
+        multiple: Видалений користувач вже має два або більше методів автентифікації. Ви впевнені, що це той користувач, якого потрібно видалити? Якщо так, то суперадміністратор повинен зробити це з консолі, щоб бути в безпеці.
+        same_user: Ви не можете об'єднати два однакові ідентифікатори користувача
     notifications:
       new_comment:
-        new: "💬 New Comment"
+        new: "💬 Новий коментар"
       new_mention:
-        new: "🗣️ New Mention"
+        new: "🗣️ Нова згадка"
     payments:
       customer:
         usd: usd
       errors:
-        select_payment_method: "Please select a payment method"
+        select_payment_method: "Будь ласка, виберіть спосіб оплати"
       process_credit_purchase:
         charge:
-          one: Purchase of %{count} credits.
-          other: Purchase of %{count} credits.
+          one: Купівля %{count} кредитів.
+          other: Купівля %{count} кредитів.
     rate_limit_checker:
-      invalid_key: 'Invalid Cache Key: no unique component present'
+      invalid_key: 'Неправильний ключ кеша: відсутній унікальний компонент'
       limit_reached:
-        one: Rate limit reached, try again in %{count} seconds
-        other: Rate limit reached, try again in %{count} seconds
+        one: Обмеження швидкості досягнуто, повторіть спробу через %{count} секунд
+        other: Обмеження швидкості досягнуто, повторіть спробу через %{count} секунд
     slack:
       messengers:
         article_fetched_feed:
           body: |
-            New Article Retrieved via RSS: %{title}
+            Нова стаття отримана за RSS: %{title}
             %{url}
         article_published:
           body: |
-            New Article Published: %{title}
+            Опубліковано нову статтю: %{title}
             %{url}
         feedback:
-          anonymous_report: "*Anonymous report:"
+          anonymous_report: "*Анонімний звіт:"
           final_message: |-
             %{user_detail}
-            Category: %{category}
-            Internal Report: %{reports_url}
-            *_ Reported URL: %{reported_url} _*
+            Категорія: %{category}
+            Внутрішній звіт: %{reports_url}
+            *_ URL: %{reported_url} _*
             -----
-            *Message:* %{message}
+            *Повідомлення:* %{message}
           body: |
-            *Logged in user:*
+            *Користувач:*
             reporter: %{username} - %{url}
             email: <mailto:%{email}|%{email}>
         potential_spammer:
-          body: 'Potential spam user! %{url}
+          body: 'Потенційний спамер %{url}
 
             '
         sponsorship:
-          body: "%{user} bought a %{type} sponsorship for %{organization}\n"
+          body: "%{user} купив %{type} спонсорство для %{organization}\n"
     spam:
       article_handler:
-        suspended_too_many: User suspended for too many spammy articles, triggered by autovomit.
+        suspended_too_many: Користувача видалено за дуже велику кількість спамних статей.
     user_subscriptions:
       create_from_controller_params:
-        source_not_found: Source not found.
-        email_mismatch: Subscriber email mismatch.
+        source_not_found: Джерело не знайдено.
+        email_mismatch: Невідповідність електронної пошти передплатника.
     users:
-      remove_role:
-        remove_self: Admins cannot remove roles from themselves.
-        remove_super: Super Admin roles cannot be removed.
-        error: There was an issue removing this role. %{e_message}
+      remove_role:  
+        remove_self: Адміністратори не можуть видаляти ролі з себе.
+        remove_super: Ролі супер адміністратора не можуть бути видалені.
+        error: Виникла проблема з видаленням цієї ролі. %{e_message}
+              

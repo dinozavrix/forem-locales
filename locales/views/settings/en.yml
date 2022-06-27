@@ -3,276 +3,277 @@ en:
   views:
     settings:
       meta:
-        title: Settings
+        title: Налаштування
       account:
-        connect: Connect %{provider} Account
-        emails: Account emails
-        primary: Primary email
+        connect: Підключити обліковий запис %{provider}
+        emails: E-mail акаунту
+        primary: Основний e-mail
         provider_email: "%{provider} email"
-        provider_profile: "%{provider} profile settings"
-        api:
-          heading: "%{community} API Keys"
-          desc_html: You can generate personal API keys to use for authentication with the %{community} API.  The API is still in its beta stage. The %{doc} contains further information.
-          active:
-            heading: Active API keys (never share these!)
-            created: 'Created: %{time}'
-          doc: documentation
-          gen:
-            heading: Generate a new Key
-            label: Description
-            text: What's this API key for?
-            placeholder: My Project Name
-            submit: Generate API Key
-          revoke: Revoke
+        provider_profile: "%{provider} налаштування профілю"
         delete:
-          heading: Delete account
-          desc1: 'Deleting your account will:'
+          heading: Видалити обліковий запис
+          desc1: 'Видалення вашого облікового запису призведе до:'
           desc1a: |
-            Delete your profile, along with your authentication associations.
+            Видаліть свій профіль разом із підключеними способами авторизації.
 
-            This does not include applications permissions. You will have to remove them yourself:
-          desc1b: Delete any and all content you have, such as articles, comments, or your reading list.
-          desc1c: Allow your username to become available to anyone.
-          desc2_html: Please, %{provide} to fully delete your account.
-          provide: provide an email
-          submit: Delete Account
+            Сюди не належать дозволи додатків. Вам доведеться видалити їх самостійно:
+          desc1b: Видаліть весь наявний у вас контент, наприклад, статті, коментарі або ваш список для читання.
+          desc1c: Дозвольте, щоб ваше ім'я користувача було доступне всім бажаючим.
+          desc2_html: Будь ласка, %{provide} для повного видалення вашого облікового запису.
+          provide: вкажіть електронну пошту
+          submit: Видалити обліковий запис
         export:
-          heading: Export content
-          desc: You can request an export of all your content. Currently we only support the export of your posts and comments, if you have any. They will be emailed to your inbox.
-          label: Request an export of your content
-          requested: You have recently requested an export of your content. Please check your email.
-          submit: Submit Data Request
+          heading: Експорт контенту
+          desc: Ви можете запросити експорт вашого контенту. В даний час ми підтримуємо експорт тільки ваших повідомлень та коментарів. Вони будуть надіслані електронною поштою до вашої поштової скриньки.
+          label: Запросіть експорт вашого контенту
+          requested: Ви нещодавно запросили експорт вашого контенту. Будь ласка, перевірте свою електронну пошту.
+          submit: Надіслати запит
         remove:
-          heading: Remove OAuth Associations
-          desc1: You can remove one of your authentication methods. We'll still need one to authenticate you.
-          desc2: 'Removing an OAuth association will:'
-          desc2a: remove your ability to sign in with that account
-          desc2b: remove the associated URL from your profile
+          heading: Видалити прив'язку OAuth
+          desc1: Ви можете видалити один із методів автентифікації. Нам все одно знадобиться один із них для вашої аутентифікації.
+          desc2: 'Видалення прив'язки OAuth призведе :'
+          desc2a: видалити можливість входу до системи з цим обліковим записом
+          desc2b: видалити пов'язану URL-адресу з вашого профілю
           desc3: |
-            Note that this does not revoke our OAuth app access;
-            you will have to do so in your settings for the specific provider:
-          confirm: Are you absolutely sure you want to remove your %{provider} account?
-          submit: Remove %{provider}
+            Зверніть увагу, що це не скасовує доступ до нашої програми OAuth;
+            вам доведеться зробити це в налаштуваннях для конкретного провайдера:
+          confirm: Ви абсолютно впевнені, що хочете видалити свій обліковий запис %{provider}?
+          submit: Видалити %{provider}
       billing:
-        heading: Billing
-        add: Add Credit Card
-        another: "+ Add Another Credit Card"
-        cards: Your Credit Cards
-        exp: Expires %{month} / %{year}
-        label: Add Card
-        number: "%{brand} ending in %{last}"
-        make: Make primary
-        primary: primary
-        remove: Remove card
-      characters: "Available characters used: "
+        heading: Рахунок
+        add: Додати кредитну картку
+        another: "+ Додати ще одну кредитну картку"
+        cards: Ваші кредитні картки
+        exp: Термін %{month} / %{year}
+        label: Додати картку
+        number: "%{brand} закінчується %{last}"
+        make: Зробити основний
+        primary: основна
+        remove: Видалити карту
+      characters: "Доступні символи:"
       complete:
-        heading: Confirm your email to complete your profile.
-        desc: While you're at it, go ahead and fill everything out.
-        github: Connect your github account as well to complete your identity.
-        twitter: Connect your twitter account as well to complete your identity.
+        heading: Підтвердіть свою електронну пошту, щоб заповнити профіль.
+        desc: Поки ви тут, заповніть усе.
+        github: Підключіть свій обліковий запис github, щоб завершити ідентифікацію.
+        twitter: Підключіть також свій обліковий запис у Twitter для завершення ідентифікації.
       custom:
-        adjacent: Permit Nearby Sponsors (When publishing)
-        announce: Announcements
-        announce_desc: Announcements inform you on important site-wide information, like updates and events.
-        announce_field: Display Announcements (When browsing)
-        appearance: Appearance
-        basic: Basic markdown
-        content: Content
-        editor: Editor Version
-        fixed: Fixed to window
-        font: Base Reading Font
-        level: What is your approximate experience level (1-5)?
-        level_desc: This will not be displayed on your profile or anywhere publicly. It helps gently determine what content you are shown along with tags you follow etc.
-        navbar: Site Navbar
+        adjacent: Дозволити спонсорів поблизу (при публікації)
+        announce: Анонси
+        announce_desc: Анонси інформують вас про важливу інформацію для всього сайту, наприклад, про оновлення та події.
+        announce_field: Відображати анонси (при перегляді сайту)
+        appearance: Зовнішній вигляд
+        basic: Базова розмітка
+        content: Контент
+        editor: Версія редактора
+        fixed: Закріплено у вікні
+        font: Основний шрифт
+        level: Яким є ваш приблизний рівень досвіду в дизайні (1-5)?
+        level_desc: Ці дані не відображатимуться у вашому профілі або будь-де публічно. Він допомагає м'яко визначити, який контент вам показується, а також теги, за якими ви стежите, і т.д.
+        navbar: Навігація сайту
         rich: Rich + markdown
-        save: Save
-        sponsor: Sponsors
-        sponsor_desc: You have the option to remove sponsor messaging (where it is practical to do so). Our wonderful sponsors help sustain the platform and improve your experience, and we strive to make their presence constructive to the community, but feel free to use this setting if you wish.
-        sponsor_field: Display Sponsors (When browsing)
-        static: Static top of page
-        theme: Site Theme
-        writing: Writing
-      danger: Danger Zone
+        save: Зберегти
+        sponsor: Спонсори
+        sponsor_desc: Ви можете видалити оголошення спонсорів (там, де це доцільно). Наші чудові спонсори допомагають підтримувати платформу та покращувати ваш досвід, і ми прагнемо зробити їхню присутність конструктивною для спільноти.
+        sponsor_field: Відображення спонсорів (під час перегляду сайту)
+        static: Прибита до верху сторінки
+        theme: Теми
+        writing: Створення статей
+      danger: Небезпечна зона
       destroy:
-        heading: Destroy your account
-        desc: 'Deleting your account will:'
-        desc_1_html: delete your profile, along with your Twitter and/or GitHub associations. This does not include app permissions. You will have to remove them yourself on %{twitter} and %{github}.
-        desc_2: delete any and all content you have, such as articles, comments, or your reading list.
-        desc_3: allow your username to become available to anyone.
-        click: click here
-        confirm_html: 'For confirmation, type the words: <code>%{word}</code>'
-        ghost_html: If you would like to keep your content under the %{ghost} account, please %{click}
-        github: GitHub profile settings
-        submit: Delete account
-        to_delete: 'To delete your account:'
-        twitter: Twitter profile settings
-        type: Type in your username
-        username: username
-        word: delete my account
-      email: Email verification.
+        heading: Видалити свій обліковий запис
+        desc: 'Видалення вашого облікового запису призведе до:'
+        desc_1_html: Видалення свого профілю призведе до видаленняю прив'язок Twitter та/або GitHub. Це не включає видалення дозволів програм. Вам доведеться видалити їх самостійно на %{twitter} або %{github}.
+        desc_2: буде видалений весь наявний у вас контент, наприклад, статті, коментарі або ваш список для читання.
+        desc_3: дозволить вашому імені користувача стати доступним для реєстрації будь-кому.
+        click: натисніть тут
+        confirm_html: 'Для підтвердження введіть ці слова: <code>%{word}</code>'
+        ghost_html: Якщо ви бажаєте зберегти свій контент під обліковим записом %{ghost}, будь ласка %{click}
+        github: GitHub налаштування профілю
+        submit: Видалити обліковий запис
+        to_delete: 'Щоб видалити свій обліковий запис:'
+        twitter: Twitter налаштування профілю
+        type: Введіть своє ім'я користувача
+        username: ім'я користувача
+        word: видалити обліковий запис
+      email: Верифікація пошти.
       errors:
         org:
-          one: '1 error prohibited your organization profile from being saved:'
-          other: "%{count} errors prohibited your organization profile from being saved:"
+          one: '1 помилка не дозволила зберегти профіль вашої організації:'
+          other: "%{count} помилки не дозволили зберегти профіль вашої організації:"
         profile:
-          one: '1 error prohibited your profile from being saved:'
-          other: "%{count} errors prohibited your profile from being saved:"
+          one: '1 помилка не дозволила зберегти ваш профіль:'
+          other: "%{count} помилки не дозволили зберегти ваш профіль:"
       extensions:
+        api:
+          heading: "%{community} API-ключі"
+          desc_html: Ви можете згенерувати персональні ключі API, які будуть використовуватися для аутентифікації в %{community} API. API все ще перебуває на стадії бета-версії. У %{doc} міститься додаткова інформація.
+          active:
+            heading: Активні ключі API (ніколи не ділитеся ними!)
+            created: 'Створено: %{time}'
+          doc: документація
+          gen:
+            heading: Згенеруйте новий ключ
+            label: Опис
+            text: Для чого потрібний цей ключ API?
+            placeholder: Назва мого проекту
+            submit: Згенерувати ключ API
+          revoke: Відкликати
         comment:
-          heading: Comment templates
-          desc_html: Create and save <strong>comment templates</strong> that you can reuse.
-          add: Add new comment template
-          confirm: 'Are you sure you want to delete: %{template}?'
-          create: Create a new response template
-          cue: Memorable cue for template
-          edit: Edit
-          edit_template: Edit comment template
-          remove: Remove
-          save: Save template
-          saved: Saved templates
+          heading: Шаблон для коментарів
+          desc_html: Створюйте та зберігайте шаблон <strong>коментарів</strong>, які можна використовувати повторно.
+          add: Додати новий шаблон коментаря
+          confirm: 'Ви впевнені, що хочете видалити: %{template}?'
+          create: Створіть новий шаблон відповіді
+          cue: Пам'ятка для шаблону
+          edit: Редагувати
+          edit_template: Редагувати шаблон коментаря
+          remove: Видалити
+          save: Зберегти шаблон
+          saved: Збережені шаблони
         github:
           heading: GitHub
-          desc1: Pin your GitHub repositories to your profile.
-          desc2: Repositories will disappear from your profile if you remove the OAuth association with GitHub.
+          desc1: Прикріпіть репозиторії GitHub до свого профілю.
+          desc2: Репозиторії зникнуть із вашого профілю, якщо ви видалите асоціацію OAuth з GitHub.
         rss:
-          heading: Publishing to %{community} from RSS
-          desc1_html: Posts will land in your %{dashboard} <strong>as drafts</strong>, and then you can publish from there.
-          desc2: Formatting will typically look good, but you may have to make manual fixes. In the case of Medium, you may have to manually fix embeds.
-          desc3_html: To find out more about how drafts are created from your feed, read this %{guide}.
-          desc4: Your feed will be fetched every time you submit this form and updates will be automatically fetched periodically thereafter.
-          desc5_html: 'FYI: Medium RSS feed URLs are <em>https://medium.com/feed/@your_username</em>'
-          desc6: By submitting your RSS Feed URL, you agree that you own and/or have permission to syndicate the associated content.
-          dashboard: dashboard
-          fetch: Fetch feed now
-          guide: guide
-          last_html: 'Last Fetched: %{time}'
-          mark_canonical_html: Mark the RSS source as canonical URL by default <p class='crayons-field__description'>If you check this box, the post will automatically mark the feed source as the canonical URL.</p>
-          referential_html: Replace self-referential links with %{community}-specific links <p class='crayons-field__description'>If you check this box, the post will automatically change any URLs included in the post to refer to the version of that article on %{community} if available. This is primarily meant for folks migrating their entire blog onto %{community}.</p>
-          save: Save Feed Settings
-          submit: Submit Feed Settings
+          heading: Публікація в %{community} із RSS стрічки
+          desc1_html: Пости попадуть у %{dashboard} <strong>як чернетки</strong>, а потім ви зможете опублікувати їх звідти.
+          desc2: Форматування зазвичай виглядає добре, але, можливо, вам доведеться вносити виправлення вручну. У випадку Medium, можливо, доведеться вручну виправляти вставки.
+          desc3_html: Щоб дізнатися більше про створення чернеток з вашої стрічки, прочитайте це %{guide}.
+          desc4: Ваші статті будуть підвантажуватись кожного разу, коли ви оновлюєте цю форму, і згодом оновлення будуть відбуватися автоматичному режимі.
+          desc5_html: 'FYI: URL-адреси RSS-каналу Medium - <em>https://medium.com/feed/@your_username</em>'
+          desc6: Надсилаючи URL-адресу RSS-каналу, ви погоджуєтеся з тим, що є власником та/або маєте дозвіл на синдикацію пов'язаного з ним контенту.
+          dashboard: панель керування
+          fetch: Підвантажити зараз
+          guide: керівництво
+          last_html: 'Час останнього підвантаження: %{time}'
+          mark_canonical_html: Позначити джерело RSS як канонічний URL за замовчуванням <p class='crayons-field__description'>Якщо ви встановите цей прапорець, пост буде автоматично відзначати джерело фіда як канонічний URL.</p>
+          referential_html: Замінювати посилання новими %{community} посиланнями <p class='crayons-field__description'>Замінювати посилання в статтях, які ведуть на ваші статті, релевантними посиланнями ваших статей вже на %{community}. Це насамперед призначено для тих, хто переносить весь свій блог на %{community}.</p>
+          save: Зберегти налаштування RSS
+          submit: Надіслати налаштування RSS
         web_monetization:
-          header: Web monetization
-          receive_payments: 'Receive micropayments for time spent reading your posts directly. '
-          learn_more: Learn more
-          payment_pointer: Payment Pointer
-          save_settings: Save Web Monetization Settings
-      finalize_html: You have requested a change to %{email}. Check your inbox for the verification link to finalize the change.
-      for_html: Settings for %{name}
+          header: Веб-монетизація
+          receive_payments: 'Отримуйте мікроплатежі за час, витрачений на читання ваших постів. '
+          learn_more: Докладніше
+          payment_pointer: Покажчик платежу
+          save_settings: Зберегти налаштування WEB монетизації
+      finalize_html: Ви запросили зміну %{email}. Перевірте свою поштову скриньку на наявність перевірочного посилання для завершення зміни.
+      for_html: Налаштування для %{name}
       group:
-        user: User
-        Basic: Basic
-        Branding: Branding
-        Coding: Coding
-        Work: Work
-      new_org: New Organization
+        user: Користувач
+        Basic: Основні
+        Branding: Брендінг
+        Coding: Дизайн
+        Work: Робота
+      new_org: Нова організація
       notifications:
-        email: Email notifications
-        general: General notifications
-        general_desc_html: Notifications that only appear on the %{page}.
-        mobile: Mobile notifications
-        moderator: Moderator notifications
-        page: notifications page
-        save: Save
+        email: Повідомлення ел. поштою
+        general: Загальні повідомлення
+        general_desc_html: Повідомлення, які відображаються лише на сторінці %{page}.
+        mobile: Мобільні повідомлення
+        moderator: Повідомлення від модератора
+        page: сторінка повідомлень
+        save: Зберегти
       org:
         admin:
-          admin: Admin
+          admin: Адмін
           copy:
             button:
-              aria_label: Copy organization secret code to clipboard
-            icon: Copy to clipboard
+              aria_label: Скопіюйте секретний код організації в буфер обміну
+            icon: Скопіювати в буфер
             input:
-              aria_label: Organization secret (to be rotated regularly)
-            text: Copied to clipboard!
-          cta: Call-to-action box
-          cta_desc: Customizable text that appears to the right of every post for your organization.
+              aria_label: Секретний код організації (має регулярнозмінюватись)
+            text: Скопійовано у буфер!
+          cta: Рекламний блок
+          cta_desc: Настроюваний текст, який з'являється в сайдбарі кожного посту вашої організації.
           delete:
-            heading: Delete Organization
-            confirm: 'Are you absolutely sure you want to delete your organization: %{name}?'
+            heading: Видалити організацію
+            confirm: 'Ви абсолютно впевнені, що хочете видалити свою організацію: %{name}?'
             desc_html: |-
-              You can delete your organization if you:
+              Ви можете видалити свою організацію, якщо:
               <ul>
-                <li>are the only member in the organization</li>
-                <li>are an admin of the organization</li>
-                <li>the organization has no posts</li>
-                <li>and the organization has no credits</li>
+                <li>є єдиним членом організації</li>
+                <li>є адміністратором організації</li>
+                <li>організація не має публікацій</li>
+                <li>і організація не має кредитів</li>
               </ul>
-            submit: Delete "%{name}"
-            questions_html: Questions? Email us at %{email} for help.
-            unmet: Your organization currently does not meet the above requirements. Please remove all other members and organization posts first.
-          details: Organization details
+            submit: Видалити "%{name}"
+            questions_html: Є питання? Напишіть нам за адресою %{email}, щоб отримати допомогу.
+            unmet: В даний час ваша організація не відповідає вищезазначеним вимогам. Будь ласка, спершу видаліть всі пости інших учасників та організацій.
+          details: Інформація про організацію
           form:
-            slug: 'Your organization''s URL is: %{slug}'
-            tag_line: Limit of 60 characters
-            summary: Limit of 250 characters
-            location: Limit of 64 characters
-            email: Limit of 64 characters
-            company_size: Enter a number
-            story: Limit of 640 characters
-            tech_stack: Limit of 640 characters
-            cta_body_markdown: 'Limited markdown: _italic_ and **bold** is okay. Links, and headers etc. will not show up. 256 character limit.'
-            cta_button_text: Limit of 20 characters
-            submit: Save
+            slug: 'URL вашої організації: %{slug}'
+            tag_line: Обмеження 60 символів
+            summary: Обмеження 250 символів
+            location: Обмеження 64 символи
+            email: Обмеження 64 символи
+            company_size: Введіть число
+            story: Обмеження 640 символів
+            tech_stack: Обмеження 640 символів
+            cta_body_markdown: 'Обмежена розмітка: _italic_ та **bold** - це нормально. Посилання, заголовки тощо. не відображаються. Обмеження 256 символів.'
+            cta_button_text: Обмеження 20 символів
+            submit: Зберегти
           gen:
-            confirm: Are you sure you want to generate a new secret? All outstanding secrets will be invalid.
-            text: You should rotate this regularly!
-            submit: Generate new secret
-          grow: Grow the team
-          invite: 'Invite teammates by sending them the secret and the following instructions:'
-          inst1_html: Sign up at %{url}
-          inst2_html: Navigate to %{url}
-          inst3_html: Paste the secret code below and click <b>Join Organization</b>
+            confirm: Ви впевнені, що хочете створити новий секретний ключ? Всі ключі, що залишилися, будуть недійсні.
+            text: Це потрібно регулярно міняти!
+            submit: Згенерувати новий секретний ключ
+          grow: Нарощуйте команду
+          invite: 'Запросіть членів команди, надіславши їм секретний код та наступні інструкції:'
+          inst1_html: Зареєструйтесь на сайті %{url}
+          inst2_html: Перейдіть на адресу %{url}
+          inst3_html: Вставте секретний код нижче та натисніть <b>Вступити в організацію</b>.
           make:
-            confirm: Are you sure you want to give %{user} admin status?
-            title: Make admin
-            text: Make admin
-          members: Organization Members
+            confirm: Ви впевнені, що хочете надати %{user} статус адміністратора?
+            title: Зробити адміном
+            text: Зробити адміном
+          members: Члени організації
           remove:
-            confirm: Are you sure you want remove %{user} from the organization?
-            title: Remove from org
-            text: Remove from org
+            confirm: Ви впевнені, що хочете видалити %{user} з організації?
+            title: Видалити з орг
+            text: Видалити з орг
           revoke:
-            confirm: Are you sure you want to take away admin status from %{user}?
-            title: Revoke admin status
-            text: Revoke admin status
-          secret_code: 'Your secret code is:'
-          you: You
+            confirm: Ви впевнені, що хочете відібрати статус адміністратора у %{user}?
+            title: Скасувати статус адміністратора
+            text: Скасувати статус адміністратора
+          secret_code: 'Ваш секретний код:'
+          you: Ви
         create:
-          heading: Create An Organization
-          notice: You must have your organization's permission to submit this form. Dishonesty may result in a permanent suspension.
-          proof: This is just a quick blurb indicating or link that shows that you clearly are associated with this organization.
-          required: Starred fields are required
-          slug: Your organization URL will be %{url}/{username}
-          submit: Create Organization
+          heading: Створити організацію
+          notice: Для подання цієї форми потрібний дозвіл вашої організації. Нечесність може призвести до постійного усунення роботи.
+          proof: Це просто короткий опис або посилання, що показує, що ви пов'язані з цією організацією.
+          required: Поля, позначені зірочками, є обов'язковими
+          slug: URL вашої організації матиме вигляд %{url}/{username}
+          submit: Створити організацію
         join:
-          heading: Join An Organization
-          desc: Provided to you by an org admin
-          label: Secret code
+          heading: Приєднатися до організації
+          desc: Надана вам адміністратором організації
+          label: Секретний код
           placeholder: "..."
-          submit: Join Organization
+          submit: Приєднатися до організації
         leave:
-          confirm: Are you sure you want to leave this organization?
-          submit: Leave Organization
-        divider: OR
+          confirm: Ви впевнені, що хочете залишити цю організацію?
+          submit: Залишити організацію
+        divider: АБО
       password:
-        heading: Set new password
+        heading: Встановити новий пароль
         desc_html: |-
-          If your account was created using social account authentication, you may prefer to add an email
-          log in. If you signed up with a social media account, <a href="%{path}">
-          please reset the password</a> for your primary email address (%{email}) in
-          order to enable this. Please note that email login is in addition to social login rather than
-          a replacement for it, so your authenticated social account will continue to be linked to your
-          account.
-        current: Current password
-        confirm: Confirm new password
-        new: Password
-        submit: Set New Password
-      previous: There is an existing account authorized with that social account.
+          Якщо ваш обліковий запис був створений за допомогою соціального облікового запису, ви можете додати адресу електронної пошти
+          увійшовши до системи. Якщо ви реєструвалися за допомогою облікового запису в соціальній мережі, <a href="%{path}">
+          скиньте пароль</a> для вашої основної адреси електронної пошти (%{email}). 
+          Зверніть увагу, що вхід електронною поштою є доповненням до входу через соціальні мережі, 
+          а не його заміною, тому ваш соціальний обліковий запис, 
+          що пройшов автентифікацію, буде, як і раніше, пов'язаний з вашим обліковим записом.
+        current: Поточний пароль
+        confirm: Підтвердити новий пароль
+        new: Пароль
+        submit: Встановити новий пароль
+      previous: Існує обліковий запис, авторизований за допомогою цього соціального акаунту.
       tab:
-        Profile: Profile
-        Customization: Customization
-        Notifications: Notifications
-        Account: Account
-        Billing: Billing
-        Organization: Organization
-        Extensions: Extensions
-      save_profile: Save Profile Information
+        Profile: Профіль
+        Customization: Налаштування
+        Notifications: Повідомлення
+        Account: Акаунт
+        Billing: Білінг
+        Organization: Організація
+        Extensions: Розширення
+      save_profile: Зберегти інформацію профілю
+
