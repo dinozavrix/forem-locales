@@ -2,9 +2,9 @@
 en:
   views:
     pagination:
-      aria_next: "Next page"
-      aria_previous: "Previous page"
+      aria_next: "Наступна сторінка"
+      aria_previous: "Попередня сторінка"
   helpers:
     page_entries_info:
       more_pages:
-        display_entries: "%{first}&nbsp;-&nbsp;%{last} of %{total}"
+        display_entries: "%{first}&nbsp;-&nbsp;%{last} з %{total}"

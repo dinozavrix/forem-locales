@@ -2,139 +2,139 @@
 en:
   views:
     moderations:
-      heading: Mod Center
+      heading: Центр модератора
       actions:
         meta:
-          title: Moderating %{title}
-          title2: '[Moderate] %{title}'
-        heading: Moderate Post
-        subtitle: Rate the quality of this post
+          title: Модерація %{title}
+          title2: '[Модерація] %{title}'
+        heading: Модерація посту
+        subtitle: Оцініть якість цієї поста
         abusive:
-          subtitle_html: Flag %{user} as Abusive
-          desc_html: This is the equivalent of flagging <b>all</b> of this user's posts and will lower their post scores.
+          subtitle_html: Відзначити %{user} як образливого
+          desc_html: Це еквівалентно скарзі. <b>Всі</b> статті цього користувача знизиться в рейтингу.
         adjust:
-          heading: Adjust tags
-          subtitle: Add or remove tags
-          aria_label: Open adjust tags section
-          icon: Adjust tags
-          add: Add tag
-          add_placeholder: Add a tag
-          reason: Reason for tag adjustment
-          remove: Remove tag
-          submit: Submit
+          heading: Налаштувати теги
+          subtitle: Додати або видалити теги
+          aria_label: Відкрийте розділ налаштування тегів
+          icon: Налаштувати теги
+          add: Додати тег
+          add_placeholder: Додати тег
+          reason: Причина коригування тегів
+          remove: Видалити тег
+          submit: Надіслати
         approve:
-          add: Mark as approved
-          remove: Remove approval
-        checkmark: Checkmark
-        close: Close moderator actions panel
+          add: Схвалити
+          remove: Видалити схвалення
+        checkmark: Позначити
+        close: Закрити панель модератора
         delete:
-          subtitle: Delete This Comment
-          button: Delete Comment
+          subtitle: Видалити коментар
+          button: Видалити коментар
         edit:
-          post: Edit Post
-          article_admin: Admin:Article
-          comment_admin: Admin:Comment
-          user_admin: Admin:User
-          resource_admin: ResourceAdmin:Article
+          post: Редагувати
+          article_admin: Admin:Стаття
+          comment_admin: Admin:Коментар
+          user_admin: Admin:Користувач
+          resource_admin: ResourceAdmin:Стаття
         errors:
-          one: '1 error prohibited this block from being saved:'
-          other: '%{count} errors prohibited this block from being saved:'
+          one: '1 помилка не дозволила зберегти цей блок:'
+          other: '%{count} помилки не дозволили зберегти цей блок:.'
         experience:
-          heading: Set experience level
-          heading2: Experience Level of Post
-          subtitle: Curate the most appropriate audience for this post
-          aria_label: Open experience level section
+          heading: Встановити рівень експертності
+          heading2: Рівень експертності поста
+          subtitle: Визначте найбільш підходящу аудиторію для цієї посади
+          aria_label: Відкрити секцію рівня експерності
           icon: Book
-          desc_html: Who <em>might</em> find this post most valuable, based on overall experience level?
+          desc_html: Хто <em>може</em> знайти цю посаду найбільш цінною, виходячи із загального рівня експертності?
           from: '%{lvl} - '
           level:
-            Advanced: Advanced
-            Beginner: Beginner
-            Expert: Expert
-            Mid-level: Mid-level
-            Novice: Novice
+            Advanced: Розвинений
+            Beginner: Початківець
+            Експерт: Експерт
+            Mid-level: Середній
+            Novice: Новачок
         admin:
-          heading: Moderating actions
-          heading2: Moderating actions for %{user}
-          subtitle: Moderating actions for %{user}
-          aria_label: Open admin actions
-          icon: Crown
-        flag: Flag user
-        how: How does this work?
+          heading: Дії адміністратора
+          heading2: Параметри публікації вищих дозволів
+          subtitle: Вищі параметри публікації дозволу
+          aria_label: Відкрити дії адміністратора
+          icon: Корона
+        flag: Поскаржитись
+        how: Як це працює?
         hidden:
-          subtitle: Hidden Comments
-          by: Comment by %{user}
+          subtitle: Приховані коментарі
+          by: Коментар від %{user}
         hint:
-          subtitle: All negative reactions are private.
+          subtitle: Всі негативні реакції мають приватний характер.
           desc_html: |-
-            Use <b>High Quality</b> to move this content "up" for any reason (quality, usefulness, etc.).
+            Використовуйте <b>Висока якість</b>, щоб перемістити цей контент "вгору" з будь-якої причини (якість, корисність тощо).
             <br />
-            Use <b>Low Quality</b> to move this content "down" for any reason (quality, usefulness, etc.).
+            Використовуйте <b>Низька якість</b>, щоб перемістити цей вміст "вниз" з будь-якої причини (якість, корисність тощо).
             <br />
-            Use <b>Flag to Admins</b> for code of conduct violations (harassment, being a jerk, spam, etc.).
-        other: Other things you can do
-        add_reaction: Add a reaction
+            Використовуйте <b>Скарга адміністраторам</b> для порушення правил поведінки (переслідування, хамство, спам тощо).
+        other: Інші речі, які ви можете зробити
+        add_reaction: Додати реакцію
         suspend:
-          suspend_user: Suspend %{username}
-          suspend_modal_text: Once suspended, %{username} will not be able to comment or publish posts until their suspension is removed.
-          suspend_modal_button: Submit & Suspend
-          unsuspend_user: Unsuspend %{username}
-          unsuspend_modal_text: Once unsuspended, %{username} will be able to comment and publish posts again.
-          unsuspend_modal_button: Submit & Unsuspend
-        suspicious: Suspicious
+          suspend_user: Призупинити %{username}
+          suspend_modal_text: Після призупинення %{username} не зможе коментувати чи публікувати публікації, доки їх призупинення не буде знято.
+          suspend_modal_button: Прийняти та призупинити
+          unsuspend_user: Розблокувати %{username}
+          unsuspend_modal_text: Після скасування призупинення %{username} знову зможе коментувати та публікувати публікації.
+          unsuspend_modal_button: Прийняти та розблокувати
+        suspicious: Підозрільний
         tag:
-          subtitle: Tag Adjustments
-          add: Add
-          added_html: '<b>Currently added tag:</b> %{tag}'
-          live_html: '<b>Current live tags:</b> %{tags}'
-          reason: Reason for adjustment (Be super kind) - Only the reason is needed, the notification will take care of the rest.
-          remove: Remove
-          removed_html: '<b>Currently removed tag:</b> %{tag}'
-          select: Select Tag
-          submit: Submit Tag Adjustment
-          tag_name: Tag Name
+          subtitle: Коригування тегів
+          add: Додати
+          added_html: '<b>Доданий тег:</b> %{tag}'
+          live_html: '<b>Поточні теги:</b> %{tags}'
+          reason: Причина коригування (Будьте дуже добрі) - Необхідно вказати лише причину, про інше подбає повідомлення.
+          remove: Видалити
+          removed_html: '<b>Видалений тег:</b> %{tag}'
+          select: Вибрати тег
+          submit: Надіслати коригування теґів
+          tag_name: Ім'я тега
           undo:
             button: '×'
-            confirm: Are you sure you want to undo the %{type} of the %{tag} tag?
+            confirm: Ви впевнені, що хочете скасувати %{type} тега%{tag}?
             type:
-              addition: addition
-              removal: removal
-        thumb_down: Thumb down
-        thumb_up: Thumb up
-        toggle: Toggle section
-        feature: Feature Post
-        unfeature: Unfeature Post
-        unpublish: Unpublish Post
-        vote_down: Low Quality
-        flag_to_admins: Flag to Admins
-        vote_up: High Quality
+              addition: додавання
+              removal: видалення
+        thumb_down: Палець вниз
+        thumb_up: Палець вгору
+        toggle: Згорнути/розгорнути
+        feature: Продвинути пост
+        unfeature: Опустити пост
+        unpublish: Зняти статтю з публікації
+        vote_down: Низька якість
+        flag_to_admins: Поскаржитися адміну
+        vote_up: Висока якість
         featured_past_day:
-          one: '%{count} post from the past day is featured.'
-          other: '%{count} posts from the past day are featured.'
-      all: All topics
+          one: 'Показано %{count} публікація за минулий день.'
+          other: 'Показано %{count} публікацій за минулий день.'
+      all: Всі статті
       aside:
-        all: All topics
-        code_of_conduct: Code of Conduct
-        external: External link
+        all: Всі статті
+        code_of_conduct: Правила поведінки
+        external: Зовнішнє посилання
         feedback:
-          subtitle: Have feedback to improve your Mod experience?
-          description: Please email %{email}!
-        hello: 'Hello! 👋'
-        thanks: Thank you for helping to keep %{community} safe! ❤️
-        inbox: Inbox
-        resources: Resources
-        tag: Tag Moderation Guide
-        terms_and_conditions: Terms & Conditions
-        trusted: Trusted User Guide
-      author: Author
-      date: Date
+          subtitle: У вас є відгуки для покращення досвіду роботи з панеллю?
+          description: Будь ласка, напишіть сюди %{email}!
+        hello: 'Вітаю! 👋'
+        thanks: Дякуємо за допомогу у забезпеченні безпеки %{community}! ❤️
+        inbox: Вхідні
+        resources: Ресурси
+        tag: Посібник з модерації тегів
+        terms_and_conditions: Правила та умови
+        trusted: Посібник довіреного користувача
+      author: Автор
+      date: Дата
       notice:
-        subtitle: '%{community} Mods'
-        desc1_html: We periodically award some %{community} members with heightened privileges to help moderate the community.
-        desc2_html: Check out our %{code} and read through our %{trusted} and %{tag}.
-        desc3_html: If you'd like to assist us as a trusted user or tag mod, please email us at %{email} and let us know which role you're interested in and why. If it's tag moderation, please tell us what tags you'd like to moderate for.
-        desc4: P.S. You are not currently signed in.
-        code_of_conduct: Code of Conduct
-        tag: Tag Moderation Guide
-        trusted: Trusted User Guide
-      post: Post
+        subtitle: '%{community} модератори'
+        desc1_html: Ми періодично нагороджуємо деяких членів спільноти %{community} підвищеними привілеями, щоб допомогти модерувати спільноту.
+        desc2_html: Ознайомтеся з нашим %{code} та прочитайте наші %{trusted} та %{tag}.
+        desc3_html: Якщо ви хочете допомогти нам як довірений користувач або модератор тегів, будь ласка, напишіть нам за адресою %{email} і повідомте, яка роль вас цікавить і чому. Якщо це модерація тегів, будь ласка, повідомте нам які теги ви хотіли б модерувати.
+        desc4: P.S. В даний час вине авторизовані.
+        code_of_conduct: Правила поведінки
+        tag: Посібник з модерації тегів
+        trusted: Посібник довіреного користувача
+      post: Пост

@@ -3,53 +3,53 @@ en:
   views:
     credits:
       meta:
-        title: Credits
+        title: Кредити
       ledger:
         class:
-          listing: Listing
-        category: Category
-        item: Item
-        cost: Cost (credits)
-        date: Date
-        misc: Miscellaneous items
+          listing: Оголошення
+        category: Категорія
+        item: Артикул
+        cost: Вартість (кредити)
+        date: Дата
+        misc: Різне
       listing:
-        create: Create a Listing
-        dashboard: Go to Listings Dashboard
+        create: Створити оголошення
+        dashboard: Перейти до панелі оголошень
       new:
         meta:
-          title: Purchase Credits
-        heading: Purchase credits for @%{name}
+          title: Купівля кредитів
+        heading: Придбати кредити для @%{name}
         form:
           amount:
-            label: Amount to Purchase
-            placeholder: Enter any amount
+            label: Сума покупки
+            placeholder: Введіть будь-яку суму
           method:
-            label: Payment Method
+            label: Спосіб оплати
             number: "**** **** **** %{last}"
             exp: "%{mm}/%{yy}"
-            add: Add New Card
-          submit: Complete Purchase
-          submitting: Submitting...
-          note_org: "*All org admins have access to credits owned by organization"
+            add: Додати нову карту
+          submit: Завершити покупку
+          submitting: Додавання...
+          note_org: "*Всі адміністратори організації мають доступ до кредитів, що належать організації."
         switch:
-          org: Switch to %{name}
-          user: Switch to personal purchase
+          org: Переключити на обліковий запис %{name}
+          user: Перейти до особистого поповнення
         status:
           subtitle:
-            org: How many credits does %{name} have?
-            user: How many credits do I currently have?
+            org: Скільки кредитів у %{name}?
+            user: Скільки кредитів у мене зараз?
           desc:
-            org: "%{name} has %{count} credits."
-            user: You have %{count} credits.
+            org: "%{name} має %{count} кредитів."
+            user: Ви маєте %{count} кредитів.
         how:
-          subtitle: How can I earn credits?
-          desc_html: Members receive <strong>5 credits</strong> for every profile badge you earn.
-      purchase: Purchase additional credits
-      tag: 'Tag: %{name}'
+          subtitle: Як я можу заробити кредити?
+          desc_html: Учасники отримують <strong>5 кредитів</strong> за кожен зароблений профіль.
+      purchase: Придбати додаткові кредити
+      tag: 'Тег: %{name}'
       status:
         user:
-          one: "You have %{count} personal credit to spend"
-          other: "You have %{count} personal credits to spend"
+          one: "У вас є %{count} особистий кредит, який ви можете витратити"
+          other: "У вас є %{count} особистих кредитів, які ви можете витратити"
         org_html:
-          one: "%{name} has %{num} credit to spend"
-          other: "%{name} has %{num} credits to spend"
+          one: "%{name} має %{num} кредит, який можна витратити"
+          other: "%{name} має %{num} кредитів, які можна витратити"

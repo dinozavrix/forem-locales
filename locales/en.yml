@@ -1,176 +1,191 @@
 ---
 en:
   contact_prompts:
-    if_any_questions_html: <a href="/contact">Contact us</a> if you have any questions.
-    if_continued_trouble_html: <a href="/contact">Contact us</a> if you continue having trouble.
-    if_we_can_help_html: <a href="/contact">Contact us</a> if there is anything we can help with.
+    if_any_questions_html: <a href="/contact">Зв'яжіться з нами</a>, якщо у вас є питання.
+    if_continued_trouble_html: <a href="/contact">Зв'яжіться з нами</a>, якщо у вас виникнуть проблеми.
+    if_we_can_help_html: <a href="/contact">Зверніться до нас</a>, якщо ми можемо чимось допомогти.
   core:
-    add_comment: Add comment
+    add_comment: Обговорити
     beta: beta
-    comment: Comment
-    copy_link: Copy link
-    edit_profile: Edit profile
-    follow: Follow
-    follow_back: Follow back
-    following: Following
-    like: Like
-    loading: loading...
-    reaction: Reaction
-    report_abuse: Report abuse
-    search: Search
-    success_settings: Successfully updated settings.
+    comment: Коментар
+    copy_link: Копіювати посилання
+    edit_profile: Редагувати профіль
+    follow: Підписатися
+    follow_back: Підписатися у відповідь
+    following: Підписки
+    like: Вподобайка
+    loading: завантаження...
+    reaction: Реакції
+    report_abuse: Повідомити про порушення
+    search: Пошук
+    success_settings: Налаштування успішно оновлено.
+  date:
+    abbr_month_names:
+    - 
+    - січ
+    - лют
+    - берез
+    - квіт
+    - трав
+    - черв
+    - лип
+    - серп
+    - верес
+    - жовт
+    - листоп
+    - груд
   datetime:
     distance_in_words_ago: # https://github.com/openstreetmap/openstreetmap-website/issues/2255
       about_x_hours:
-        one: about 1 hour ago
-        other: about %{count} hours ago
+        one: близько 1 години тому
+        other: близько %{count} годин тому
       about_x_months:
-        one: about 1 month ago
-        other: about %{count} months ago
+        one: близько 1 місяця тому
+        other: близько %{count} місяців тому
       about_x_years:
-        one: about 1 year ago
-        other: about %{count} years ago
+        one: близько 1 року тому
+        other: близько %{count} років тому
       almost_x_years:
-        one: almost 1 year ago
-        other: almost %{count} years ago
-      half_a_minute: half a minute ago
+        one: майже 1 рік тому
+        other: майже %{count} років тому
+      half_a_minute: півхвилини тому
       less_than_x_seconds:
-        one: less than 1 second ago
-        other: less than %{count} seconds ago
+        one: менше 1 секунди тому
+        other: менше %{count} секунд тому
       less_than_x_minutes:
-        one: less than a minute ago
-        other: less than %{count} minutes ago
+        one: менше хвилини тому
+        other: менше %{count} хвилин тому
       over_x_years:
-        one: over 1 year ago
-        other: over %{count} years ago
+        one: більше 1 року тому
+        other: більше %{count} років тому
       x_seconds:
-        one: 1 second ago
-        other: "%{count} seconds ago"
+        one: 1 секунду тому
+        other: "%{count} секунд тому"
       x_minutes:
-        one: 1 minute ago
-        other: "%{count} minutes ago"
+        one: 1 хвилину тому
+        other: "%{count} хвилин тому"
       x_days:
-        one: 1 day ago
-        other: "%{count} days ago"
+        one: 1 день тому
+        other: "%{count} днів тому"
       x_months:
-        one: 1 month ago
-        other: "%{count} months ago"
+        one: 1 місяць тому
+        other: "%{count} місяців тому"
       x_years:
-        one: 1 year ago
-        other: "%{count} years ago"
+        one: 1 рік тому
+        other: "%{count} років тому"
     expired_ago:
       about_x_hours:
-        one: Expired about 1 hour ago
-        other: Expired about %{count} hours ago
+        one: Термін дії минув 1 годину тому
+        other: Термін дії минув %{count} годин тому
       about_x_months:
-        one: Expired about 1 month ago
-        other: Expired about %{count} months ago
+        one: Термін дії минув 1 місяць тому
+        other: Термін дії минув близько %{count} місяців тому
       about_x_years:
-        one: Expired about 1 year ago
-        other: Expired about %{count} years ago
+        one: Термін дії минув близько 1 року тому
+        other: Термін дії минув близько %{count} років тому
       almost_x_years:
-        one: Expired almost 1 year ago
-        other: Expired almost %{count} years ago
-      half_a_minute: Expired half a minute ago
+        one: Термін дії минув майже 1 рік тому
+        other: Термін дії минув майже %{count} років тому
+      half_a_minute: Термін дії минув півхвилини тому
       less_than_x_seconds:
-        one: Expired less than 1 second ago
-        other: Expired less than %{count} seconds ago
+        one: Термін дії минув менше 1 секунди тому
+        other: Термін дії минув менше %{count} секунд тому
       less_than_x_minutes:
-        one: Expired less than a minute ago
-        other: Expired less than %{count} minutes ago
+        one: Термін дії минув дії закінчився менше хвилини тому
+        other: Термін дії минув менше %{count} хвилин тому
       over_x_years:
-        one: Expired over 1 year ago
-        other: Expired over %{count} years ago
+        one: Термін дії минув більше 1 року тому
+        other: Термін дії минув понад %{count} років тому
       x_seconds:
-        one: Expired 1 second ago
-        other: Expired %{count} seconds ago
+        one: Термін дії минув 1 секунду тому
+        other: Термін дії минув %{count} секунд тому
       x_minutes:
-        one: Expired 1 minute ago
-        other: Expired %{count} minutes ago
+        one: Термін дії минув 1 хвилину тому
+        other: Термін дії минув %{count} хвилин тому
       x_days:
-        one: Expired 1 day ago
-        other: Expired %{count} days ago
+        one: Термін дії минув 1 день тому
+        other: Термін дії минув %{count} днів тому
       x_months:
-        one: Expired 1 month ago
-        other: Expired %{count} months ago
+        one: Термін дії минув 1 місяць тому
+        other: Термін дії минув %{count} місяців тому
       x_years:
-        one: Expired 1 year ago
-        other: Expired %{count} years ago
+        one: Термін дії минув 1 рік тому
+        other: Термін дії минув %{count} років тому
     expires_in:
       about_x_hours:
-        one: Expires in about 1 hour
-        other: Expires in about %{count} hours
+        one: Спливає приблизно через 1 годину
+        other: Спливає приблизно через %{count} годин
       about_x_months:
-        one: Expires in about 1 month
-        other: Expires in about %{count} months
+        one: Спливає приблизно через 1 місяць
+        other: Спливає приблизно через %{count} місяців
       about_x_years:
-        one: Expires in about 1 year
-        other: Expires in about %{count} years
+        one: Спливає приблизно через 1 рік
+        other: Спливає приблизно через %{count} років
       almost_x_years:
-        one: Expires in almost 1 year
-        other: Expires in almost %{count} years
-      half_a_minute: Expires in half a minute
+        one: Спливає майже через 1 рік
+        other: Спливає майже через %{count} років
+      half_a_minute: Спливає через півхвилини
       less_than_x_seconds:
-        one: Expires in less than 1 second
-        other: Expires in less than %{count} seconds
+        one: Спливає менш ніж через 1 секунду
+        other: Спливає менш ніж через %{count} секунд
       less_than_x_minutes:
-        one: Expires in less than a minute
-        other: Expires in less than %{count} minutes
+        one: Спливає менш ніж за хвилину
+        other: Спливає менш ніж через %{count} хвилин
       over_x_years:
-        one: Expires in over 1 year
-        other: Expires in over %{count} years
+        one: Спливає більш ніж через 1 рік
+        other: Спливає через %{count} років
       x_seconds:
-        one: Expires in 1 second
-        other: Expires in %{count} seconds
+        one: Спливає через 1 секунду
+        other: Спливає через %{count} секунд
       x_minutes:
-        one: Expires in 1 minute
-        other: Expires in %{count} minutes
+        one: Спливає через 1 хвилину
+        other: Спливає через %{count} хвилин
       x_days:
-        one: Expires in 1 day
-        other: Expires in %{count} days
+        one: Спливає через 1 день
+        other: Спливає через %{count} днів
       x_months:
-        one: Expires in 1 month
-        other: Expires in %{count} months
+        one: Спливає через 1 місяць
+        other: Спливає через %{count} місяців
       x_years:
-        one: Expires in 1 year
-        other: Expires in %{count} years
+        one: Спливає через 1 рік
+        other: Спливає через %{count} років
   errors:
     messages:
-      accepted: must be accepted
-      bad_protocol: must start with %{protocols}
-      bad_uri: is an invalid url
-      blank: can't be blank
-      confirmation: doesn't match %{attribute}
-      contains_prohibited_characters: contains non-alphanumeric or prohibited unicode characters
-      empty: can't be empty
-      equal_to: must be equal to %{count}
-      even: must be even
-      exclusion: is reserved
-      general: 'Error: %{errors}'
-      greater_than: must be greater than %{count}
-      greater_than_or_equal_to: must be greater than or equal to %{count}
-      inclusion: is not included in the list
-      invalid: is invalid
-      less_than: must be less than %{count}
-      less_than_or_equal_to: must be less than or equal to %{count}
-      model_invalid: 'Validation failed: %{errors}'
-      not_a_number: is not a number
-      not_an_integer: must be an integer
-      odd: must be odd
-      other_than: must be other than %{count}
-      present: must be blank
-      required: must exist
-      taken: has already been taken
+      accepted: повинні бути прийняті
+      bad_protocol: повинні починатися з %{protocols}
+      bad_uri: це неприпустимий url
+      blank: не може бути порожнім
+      confirmation: не відповідає %{attribute}
+      contains_prohibited_characters: містить неалфавітно-цифрові або заборонені символи юнікоду
+      empty: не може бути порожнім
+      equal_to: повинно бути одно %{count}
+      even: має бути парним
+      exclusion: зарезервовано
+      general: 'Помилка: %{errors}'
+      greater_than: має бути більше, ніж %{count}
+      greater_than_or_equal_to: має бути більше або дорівнює %{count}
+      inclusion: не включено до списку
+      invalid: недійсний
+      less_than: має бути менше, ніж %{count}
+      less_than_or_equal_to: має бути менше або дорівати %{count}
+      model_invalid: 'Помилка валідації: %{errors}'
+      not_a_number: не є числом
+      not_an_integer: має бути цілим числом
+      odd: має бути непарним
+      other_than: має бути більше, ніж %{count}
+      present: має бути порожнім
+      required: має існувати
+      taken: вже зайнято
       too_long:
-        one: is too long (maximum is 1 character)
-        other: is too long (maximum is %{count} characters)
+        one: надто довгий (максимум 1 символ)
+        other: занадто довгий (максимум - %{count} символів)
       too_short:
-        one: is too short (minimum is 1 character)
-        other: is too short (minimum is %{count} characters)
-      try_again_email: 'An error occurred. Please try again or send an email to: %{email}'
+        one: занадто короткий (мінімум 1 символ)
+        other: занадто короткий (мінімум - %{count} символів)
+      try_again_email: 'Сталася помилка. Будь ласка, спробуйте ще раз або надішліть листа за адресою: %{email}'
       wrong_length:
-        one: is the wrong length (should be 1 character)
-        other: is the wrong length (should be %{count} characters)
+        one: має неправильну довжину (має бути 1 символ)
+        other: має неправильну довжину (має бути %{count} символів)
   time:
     formats:
       comment: "%B %d, %Y"

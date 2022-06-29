@@ -3,26 +3,26 @@ en:
   views:
     editor:
       meta:
-        title: Edit Post
+        title: Редагувати статтю
       heading:
-        new: New Post
-      create: Create Post
+        new: Новий пост
+      create: Створити пост
       close:
-        icon: Close
-        title: Close the editor
+        icon: Закрити
+        title: Закрийте редактор
       cover_image:
-        add: Add a cover image
-        change: Change
-      edit: Edit
-      modes: View post modes
-      new_title: New post title here...
-      preview: Preview
+        add: Додати зображення обкладинки
+        change: Змінити
+      edit: Редагувати
+      modes: Режими перегляду постів
+      new_title: Назва нового посту тут...
+      preview: Превью
       video:
         progress:
-          heading: "⏳ Video Transcoding In Progress ⏳"
-          notice_1: You'll get an email when this process finishes.
-          notice_2: This is an ordinary unpublished post. Add title/tags/body/etc, and then mark as published after the video is done processing.
+          heading: "⏳ Виконується транскодування відео ⏳"
+          notice_1: Після завершення цього процесу ви отримаєте листа.
+          notice_2: Це звичайний неопублікований пост. Додайте заголовок, теги, тіло і т.д., а потім позначте як опублікований після обробки відео.
         submit_image:
-          button: Submit Change
-          text: 'Preview Image URL: '
-          placeholder: New Thumbnail URL
+          button: Надіслати зміну
+          text: 'URL зображення для перегляду: '
+          placeholder: Нова URL-адреса мініатюри
