@@ -2,131 +2,131 @@
 en:
   models:
     api_secret:
-      api_limit_reached: Досягнуто ліміт API secret, що дорівнює 10 для кожного користувача
+      api_limit_reached: API secret limit of 10 per user has been reached
     application_record:
-      uninferrable: Не вдалося вивести декоратор для %{class}.
+      uninferrable: Could not infer a decorator for %{class}.
     article:
-      a_post_by: Пост від %{user_name}
-      video_unpermitted: не може бути додана учасником без дозволу
-      video_processing: не може бути встановлено в true, якщо відео все ще обробляється
-      cannot_search_tags_for: 'Неможливо здійснити пошук за тегами для: %{tag}'
-      cannot_search_tags_for_tags: 'Неможливо знайти теги для: %{tags}'
-      unique_coauthor: Ідентифікатори співавторів мають бути унікальними
-      too_many_tags: перевищувати максимальну кількість у 4 теги
-      is_too_long: надто довгий.
-      invalid_date: повинні бути введені у форматі ДД/ММ/РРРР з поточною або минулою датою
-      series_unpermitted: має бути таким, щоб у вас був дозвіл на публікацію в
-      invalid_coauthor: повинні бути дійсними ідентифікаторами користувачів
-      same_author: не повинен бути тим самим користувачем, що й автор
-      must_not_have_spaces: не повинно бути пробілів
-      published: Опубліковано
-      unique_url: вже зайнято. За більш детальною інформацією звертайтесь електронною поштою %{email}.
+      a_post_by: A post by %{user_name}
+      video_unpermitted: cannot be added by member without permission
+      video_processing: cannot be set to true if video is still processing
+      cannot_search_tags_for: 'Cannot search tags for: %{tag}'
+      cannot_search_tags_for_tags: 'Cannot search tags for: %{tags}'
+      unique_coauthor: co-author IDs must be unique
+      too_many_tags: exceed the maximum of 4 tags
+      is_too_long: is too long.
+      invalid_date: must be entered in DD/MM/YYYY format with current or past date
+      series_unpermitted: must be one you have permission to post to
+      invalid_coauthor: must be valid user IDs
+      same_author: must not be the same user as the author
+      must_not_have_spaces: must not have spaces
+      published: Published
+      unique_url: has already been taken. Email %{email} for further details.
       mention_too_many:
-        one: Ви не можете згадувати більше %{count} користувача в одному повідомленні!
-        other: Ви не можете згадувати більше %{count} користувачів в одному повідомленні!
+        one: You cannot mention more than %{count} users in a post!
+        other: You cannot mention more than %{count} users in a post!
     broadcast:
-      single_active: У вас може бути тільки одна активна трансляція оголошення
+      single_active: You can only have one active announcement broadcast
     comment:
-      deleted: "[видалено]"
-      has_been_deleted: "%{type} було видалено."
-      hidden: "[приховано автором посту]"
-      is_not_valid: недійсний.
-      locked: обговорення заблоковане у цьому пості
-      type: 
-        Article: Стаття
-        item: елемент
-        PodcastEpisode: Епізод подкасту
-      suspended_too_many: Користувач видалений за надто велику кількість спамних взаємодій.
+      deleted: '[deleted]'
+      has_been_deleted: '%{type} has been deleted.'
+      hidden: '[hidden by post author]'
+      is_not_valid: is not valid.
+      locked: the discussion is locked on this Post
+      type:
+        Article: Article
+        item: item
+        PodcastEpisode: Podcast episode
+      suspended_too_many: User suspended for too many spammy interactions, triggered by autovomit.
       mention_too_many:
-        one: У коментарі не можна згадувати більше %{count} користувача!
-        other: У коментарі не можна згадувати більше %{count} користувачів!
+        one: You cannot mention more than %{count} users in a comment!
+        other: You cannot mention more than %{count} users in a comment!
     feedback_message:
-      reported: "(Ви) раніше повідомляли про це URL."
+      reported: '(you) previously reported this URL.'
     github_issue:
-      issue_comment_not_found: Коментар до проблеми %{issue_id} не знайдено
-      issue_not_found: Проблему %{issue_id} не знайдено
+      issue_comment_not_found: Issue comment %{issue_id} not found
+      issue_not_found: Issue %{issue_id} not found
     html_variant:
-      no_edits: не можуть бути змінені після публікації та затвердження
+      no_edits: cannot change once published and approved
     identity:
-      no_email_msg: Електронну пошту не знайдено. Будь ласка, перепідключіть обліковий запис %{provider}, щоб уникнути помилок.
+      no_email_msg: No email found. Please relink your %{provider} account to avoid errors.
     listing:
-      too_many_tags: перевищувати максимальну кількість у 8 тегів
-      too_many_linebreaks: має надто багато обривів ліній. Дозволено не більше 12.
-      image_not_allowed: не дозволяється вмикати зображення.
-      liquid_not_allowed: не дозволяється включати рідкі теги.
+      too_many_tags: exceed the maximum of 8 tags
+      too_many_linebreaks: has too many linebreaks. No more than 12 allowed.
+      image_not_allowed: is not allowed to include images.
+      liquid_not_allowed: is not allowed to include liquid tags.
     mention:
-      is_not_valid: недійсна.
+      is_not_valid: is not valid.
     organization:
-      integer_only: Тільки ціле число. Знак не допускається.
-      reserved_word: "%<value> є зарезервованим словом. Зверніться до адміністраторів сайту за допомогою реєстрації вашої організації."
+      integer_only: Integer only. No sign allowed.
+      reserved_word: '%<value>s is a reserved word. Contact site admins for help registering your organization.'
     page:
-      body_must_exist: має існувати, якщо body_html чи body_json не існує.
+      body_must_exist: must exist if body_html or body_json doesn't exist.
     podcast:
-      slug_is_reserved: Коротрке імʼя зарезервоване
+      slug_is_reserved: slug is reserved
     podcast_episode_appearance:
-      provided_role_is_not_valid: ця роль не дійсна
+      provided_role_is_not_valid: provided role is not valid
     poll_skip:
-      cannot_vote_more_than_once: не можна голосувати більше одного разу в одному опитуванні
+      cannot_vote_more_than_once: cannot vote more than once in one poll
     poll_vote:
-      cannot_vote_more_than_once: не можна голосувати більше одного разу в одному опитуванні
+      cannot_vote_more_than_once: cannot vote more than once in one poll
     profile_pin:
-      only_five: не може мати більше п'яти повідомлень із загальною кількістю прикріплених постів
-      pin_unpermitted: повинні мати відповідні дозволи на виведення
+      only_five: cannot have more than five total pinned posts
+      pin_unpermitted: must have proper permissions for pin
     rating_vote:
-      not_permitted: не має права робити це.
+      not_permitted: is not permitted to take this action.
     reaction:
-      is_not_valid: недійсний.
+      is_not_valid: is not valid.
     response_template:
-      user_nil_only: не може мати пов'язаний із ним ідентифікатор користувача.
-      comment_markdown: Шаблони коментарів повинні використовувати Markdown як тип вмісту.
-      email_text: Шаблони електронної пошти повинні використовувати звичайний текст або HTML як тип вмісту.
-      limit_reached: Шаблони електронної пошти повинні використовувати звичайний текст або HTML як тип вмісту.
+      user_nil_only: cannot have a user ID associated.
+      comment_markdown: Comment templates must use Markdown as its content type.
+      email_text: Email templates must use plain text or HTML as its content type.
+      limit_reached: Response template limit of 30 per user has been reached
     settings:
       campaign:
-        share_your_project: Поділіться своїм проектом
+        share_your_project: Share your project
       community:
-        message: не може містити символ "<" або ">".
-        new_forem: Новий Forem
+        message: may not include the "<" nor ">" character
+        new_forem: New Forem
         user: user
       general:
-        community_sponsors: Спонсори спільноти
-        the_community_mascot: Талісман спільноти
+        community_sponsors: Community Sponsors
+        the_community_mascot: The community mascot
       user_experience:
-        message: 'має складатися з 3 або 6 символів (починаючи з #)'
+        message: 'must be be a 3 or 6 character hex (starting with #)'
     sponsorship:
-      invalid_type: не спонсорований тип
-      already_sponsored: Мітка вже спонсорована
-      only_one_level: У вас може бути лише один спонсор %{levels}
+      invalid_type: is not a sponsorable type
+      already_sponsored: The tag is already sponsored
+      only_one_level: You can have only one sponsorship of %{levels}
       level:
-        gold: золотий
-        silver: срібний
-        bronze: бронзовий
+        gold: gold
+        silver: silver
+        bronze: bronze
     tag:
-      alias_for: alias_for має посилатися на існуючий тег
+      alias_for: alias_for must refer to an existing tag
     tag_adjustment:
-      too_many_tags: Не більше 4 тегів на статтю.
-      unpermitted: не має привілеїв для налаштування цих тегів
-      not_live: Вибрана для видалення не є поточною живою позначкою.
-      unique: не може бути вже налаштованим тегом
+      too_many_tags: 4 tags max per article.
+      unpermitted: does not have privilege to adjust these tags
+      not_live: selected for removal is not a current live tag.
+      unique: can't be an already adjusted tag
     tweet:
-      tweet_not_found: Твіт не знайдено
-      authentication_error: Помилка аутентифікації; будь ласка, зв’яжіться з адміністратором Forem щодо можливих відсутніх ключів Twitter
+      tweet_not_found: Tweet not found
+      authentication_error: Authentication error; please contact your Forem admin about possible missing Twitter keys
     user:
-      could_not_send: підтвердження не може бути надіслано. %{e_message}
-      password_not_matched: не відповідає підтвердженню пароля
-      has_been_banished: було забанено.
-      is_taken: "%{username} прийнято."
-      user_could_not_be_saved: Користувач не може бути збережений. %{e_message}
-      username_is_reserved: ім'я користувача зарезервовано
+      could_not_send: confirmation could not be sent. %{e_message}
+      password_not_matched: doesn't match password confirmation
+      has_been_banished: has been banished.
+      is_taken: '%{username} is taken.'
+      user_could_not_be_saved: User could not be saved. %{e_message}
+      username_is_reserved: username is reserved
     user_block:
-      cant_be_the_same: не може бути таким же, як blocked_id
+      cant_be_the_same: can't be the same as the blocked_id
     user_subscription:
-      non_apple: Неможливо підписатися за допомогою особистого ретранслятора Apple. Будь ласка, оновіть електронну пошту.
-      source_not_found: Джерело не знайдено. Будь ласка, переконайтеся, що ваш %{джерело} активний!
-      not_enabled: Підписки користувачів не включені до джерела.
+      non_apple: Can't subscribe with an Apple private relay. Please update email.
+      source_not_found: Source not found. Please make sure your %{source} is active!
+      not_enabled: User subscriptions are not enabled for the source.
     users:
       deleted_user:
-        name: "[Видалений користувач]"
+        name: '[Deleted User]'
       setting:
-        invalid_hex: не є допустимим hex кольором
-        invalid_rss: не є дійсним RSS/Atom-каналом
+        invalid_hex: is not a valid hex color
+        invalid_rss: is not a valid RSS/Atom feed

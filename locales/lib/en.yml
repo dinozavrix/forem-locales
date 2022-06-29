@@ -5,204 +5,204 @@ en:
       settings:
         authentication:
           allowed:
-            description: Обмежити реєстрацію лише певними електронними адресами? (розділений комами список)
-            placeholder: ux.pub, dev.to, forem.com, codenewbie.org
+            description: Restrict registration to only certain emails? (comma-separated list)
+            placeholder: dev.to, forem.com, codenewbie.org
           apple_client:
-            description: Код "App Bundle" для служби аутентифікації, налаштований на порталі розробників Apple
+            description: The "App Bundle" code for the Authentication Service configured in the Apple Developer Portal
           apple_key:
-            description: Key ID" від служби аутентифікації, налаштованої на порталі розробників Apple
+            description: The "Key ID" from the Authentication Service configured in the Apple Developer Portal
           apple_pem:
-            description: Ключ "PEM" із служби аутентифікації, налаштованої на порталі розробників Apple
+            description: The "PEM" key from the Authentication Service configured in the Apple Developer Portal
           apple_team:
-            description: "Team ID" вашого облікового запису розробника Apple
+            description: The "Team ID" of your Apple Developer Account
           blocked:
-            description: Заблокувати реєстрацію з певних доменів? (розділений комами список)
+            description: Block registration from specified domains?  (comma-separated list)
           display_list:
-            description: Ви хочете відобразити список дозволених доменів чи залишити його приватним?
+            description: Do you want to display the list of allowed domains, or keep it private?
           facebook_key:
-            description: "App ID" розділу "Основні налаштування" сторінки програми на порталі розробників Facebook
+            description: The "App ID" portion of the Basic Settings section of the App page on the Facebook Developer Portal
           facebook_secret:
-            description: "App Secret" розділу "Основні налаштування" сторінки програми на порталі розробників Facebook
+            description: The "App Secret" portion of the Basic Settings section of the App page on the Facebook Developer Portal
           forem_key:
             description: Forem key
           forem_secret:
             description: Forem secret
           github_key:
-            description: "Client ID" частина з GitHub Oauth Apps
+            description: The "Client ID" portion of the GitHub Oauth Apps portal
           github_secret:
-            description: "Client Secret" частина з GitHub Oauth Apps
+            description: The "Client Secret" portion of the GitHub Oauth Apps portal
           google_key:
-            description: "Client ID" частина з OAuth 2.0 сторінки на Google Cloud Platform
+            description: The "Client ID" portion of the OAuth 2.0 page on the Google Cloud Platform portal
           google_secret:
-            description: "Client Secret" частина з OAuth 2.0 сторінки на Google Cloud Platform
+            description: The "Client Secret" portion of the OAuth 2.0 page on the Google Cloud Platform portal
           invite_only:
-            description: Лише користувачі, запрошені електронною поштою, можуть приєднатися до цієї спільноти.
+            description: Only users invited by email can join this community.
           providers:
-            description: Як користувачі можуть увійти?
+            description: How can users sign in?
           recaptcha_secret:
-            description: Додайте секретний ключ для Google reCAPTCHA, який використовується для повідомлення про порушення
-            placeholder: Що таке секретний ключ Google reCAPTCHA?
+            description: Add the secret key for Google reCAPTCHA, which is used for reporting abuse
+            placeholder: What is the Google reCAPTCHA secret key?
           recaptcha_site:
-            description: Додайте ключ сайту для Google reCAPTCHA, який використовується для повідомлення про порушення
-            placeholder: Що таке ключ сайту Google reCAPTCHA?
+            description: Add the site key for Google reCAPTCHA, which is used for reporting abuse
+            placeholder: What is the Google reCAPTCHA site key?
           require_recaptcha:
-            description: Люди повинні будуть заповнювати капчу, коли вони створюють новий обліковий запис у вашій спільноті
+            description: People will be required to fill out a captcha when they're creating a new account in your community
           twitter_key:
-            description: "API key" споживчих ключів на порталі розробників Twitter.
+            description: The "API key" portion of consumer keys in the Twitter developer portal.
           twitter_secret:
-            description: "API secret key" споживчих ключів на порталі розробників Twitter.
+            description: The "API secret key" portion of consumer keys in the Twitter developer portal.
         campaign:
           articles_approval:
-            placeholder: Історії кампанії відображаються на бічній панелі після схвалення?
+            placeholder: Campaign stories show up on sidebar with approval?
           articles_expiry:
-            description: Встановлює час закінчення терміну дії статей (у тижнях), які відображатимуться на бічній панелі кампанії
+            description: Sets the expiry time for articles (in weeks) to be displayed in campaign sidebar
           call_to_action:
-            description: Цей текст заповнює кнопку заклику до дії на бічній панелі кампанії
-            placeholder: Поділіться своїм проектом
+            description: This text populates the call to action button on the campaign sidebar
+            placeholder: Share your project
           display_name:
-            description: Цей текст відображається щодо кампанії в заголовках тощо.
-            placeholder: Моя чудова кампанія
+            description: This text is displayed in reference to the campaign in titles, etc.
+            placeholder: My great campaign
           featured:
-            description: Публікації з тегами, які будуть представлені на бічній панелі кампанії (розділені комами, лише літери)
-            placeholder: 'Список тегів кампанії: розділені комами, лише літери, напр. shecoded, theycoded'
+            description: Posts with which tags will be featured in the campaign sidebar (comma separated, letters only)
+            placeholder: 'List of campaign tags: comma separated, letters only e.g. shecoded,theycoded'
           hero_html:
-            description: Hero HtmlVariant ім'я
+            description: Hero HtmlVariant name
           sidebar_enabled:
-            placeholder: Бічна панель кампанії ввімкнена чи ні
+            placeholder: Campaign sidebar enabled or not
           sidebar_image:
-            placeholder: Використовується у верхній частині бічної панелі кампанії
+            placeholder: Used at the top of the campaign sidebar
           url:
             description: https://url.com/lander
-            placeholder: URL-адреса кампанії, на яку буде посилання на зображення бічної панелі
+            placeholder: URL campaign sidebar image will link to
         community:
           copyright:
-            description: Використовується для позначення року початку цієї форми.
+            description: Used to mark the year this forem was started.
           description:
-            description: Використовується в мета-тегах опису тощо.
-            placeholder: Фантастична спільнота добрих і привітних людей.
+            description: Used in meta description tags etc.
+            placeholder: A fabulous community of kind and welcoming people.
           emoji:
-            description: Використовується в тегах заголовка на сайті поряд з назвою спільноти
+            description: Used in the title tags across the site alongside the community name
           member:
-            description: Використовується, щоб визначити, як буде називатися учасник, наприклад, розробник, любитель тощо.
-            placeholder: користувач
+            description: Used to determine what a member will be called e.g developer, hobbyist etc.
+            placeholder: user
           name:
-            description: Використовується як основна назва для вашого Forem, наприклад DEV, DEV Community, DEV Community тощо.
+            description: Used as the primary name for your Forem, e.g. DEV, DEV Community, The DEV Community, etc.
             placeholder: New Forem
           staff:
-            description: Ідентифікатор облікового запису, який діє як автоматизований «персонал» — використовується в основному для вітальної теми.
+            description: Account ID which acts as automated 'staff'— used principally for welcome thread.
           tagline:
-            description: Використовується в режимі реєстрації.
-            placeholder: Ми – місце, де креативні люди діляться, залишаються в курсі новин і розвивають свою кар’єру.
+            description: Used in signup modal.
+            placeholder: We're a place where coders share, stay up-to-date and grow their careers.
         general:
           contact_email:
-            description: Використовується для контактних посилань. Будь ласка, надайте адресу електронної пошти, за якою користувачі можуть зв’язатися з вами або вашою командою.
+            description: Used for contact links. Please provide an email address where users can get in touch with you or your team.
           credit:
             large:
-              description: Ціна за велику покупку в кредит (100 - 999 кредитів).
+              description: Price for large credit purchase (100 - 999 credits).
             medium:
-              description: Ціна для покупки середнього кредиту (10 - 99 кредитів).
+              description: Price for medium credit purchase (10 - 99 credits).
             small:
-              description: Ціна для покупки в невеликий кредит (<10 кредитів).
+              description: Price for small credit purchase (<10 credits).
             xlarge:
-              description: Ціна за дуже велику покупку в кредит (1000 кредитів або більше).
+              description: Price for extra large credit purchase (1000 credits or more).
           favicon:
-            description: Використовується як значок сайту
+            description: Used as the site favicon
           ga_tracking:
-            description: Google Analytics Tracking ID, напр. UA-71991000-1
+            description: Google Analytics Tracking ID, e.g. UA-71991000-1
           hashtag:
-            description: Використовується як хештег у Twitter спільноти
-            placeholder: '#UXCommunity'
+            description: Used as the twitter hashtag of the community
+            placeholder: '#DEVCommunity'
           health:
-            description: Використовується для автентифікації за допомогою кінцевих точок перевірки здоров'я.
-            placeholder: безпечний токен
+            description: Used to authenticate with your health check endpoints.
+            placeholder: a secure token
           logo_png:
-            description: Використовується як додатковий логотип у таких місцях, як модальний вхід, адаптація, сенсорні значки Apple. Рекомендований мінімум 512x512 пікселів
+            description: Used as a secondary logo in places like the sign in modals, onboarding, Apple touch icons. Recommended minimum of 512x512px
           logo_svg:
-            description: Це логотип, який зараз використовується у верхньому лівому куті вашого Forem. Однак після випуску він буде застарілий на користь логотипу вище.
+            description: This is the logo currently used on the upper left-hand corner of your Forem. However, after the release it will be deprecated in favor of the Logo above.
           mailchimp_api:
-            description: Ключ API, який використовується для підключення облікового запису Mailchimp. Знайдено в серверній частині Mailchimp
+            description: API key used to connect Mailchimp account. Found in Mailchimp backend
           mailchimp_mod:
             description: Community Moderators Newsletter ID
           mailchimp_news:
-            description: Main Newsletter ID, також відомий як Audience ID
+            description: Main Newsletter ID, also known as Audience ID
           mailchimp_tag_mod:
             description: Tag Moderators Newsletter ID
           main_social:
-            description: Використовується як основне зображення в соціальних мережах і OpenGraph. Рекомендований формат 16:9 (600x337px,1200x675px)
+            description: Used as the main image in social networks and OpenGraph. Recommended aspect ratio of 16:9 (600x337px,1200x675px)
           mascot_image:
-            description: Використовується як зображення-талісман.
+            description: Used as the mascot image.
           mascot_user:
-            description: User ID для акаунту Талісману
+            description: User ID of the Mascot account
           meta_keywords:
-            description: 'Список дійсних ключових слів: розділені комами, лише літери, напр. інжиніринг, розробка'
+            description: 'List of valid keywords: comma separated, letters only e.g. engineering, development'
           onboarding:
-            description: Фон для стартової сторінки-заставки
+            description: Background for onboarding splash page
           payment:
-            description: 'Використовується для монетизації всього сайту https://github.com/forem/forem/pull/6345'
+            description: 'Used for site-wide web monetization. See: https://github.com/forem/forem/pull/6345'
           periodic:
-            description: Визначає частоту надсилання періодичних дайджестів електронної пошти (у днях)
+            description: Determines how often periodic email digests are sent (in days)
           prefer_manual:
-            description: Завжди показувати запропонованих користувачів як рекомендованих людей, на які слід підписатися, навіть якщо автоматична пропозиція доступна
+            description: Always show suggested users as suggested people to follow even when auto-suggestion is available
           sidebar:
-            description: Визначає, які теги відображаються на правій бічній панелі домашньої сторінки
-            placeholder: Список дійсних тегів, розділених комами, напр. допоможіть, обговоріть, поясніть, як п’ять, мета
+            description: Determines which tags are shown on the homepage right-hand sidebar
+            placeholder: List of valid, comma-separated tags e.g. help,discuss,explainlikeimfive,meta
           sponsor:
-            description: Визначає текст заголовка бічної панелі основних спонсорів над списком спонсорів.
-            placeholder: Спонсори спільноти
+            description: Determines the heading text of the main sponsors sidebar above the list of sponsors.
+            placeholder: Community Sponsors
           stripe_api:
-            description: 'Secret Stripe key для отримання платежів. See: https://stripe.com/docs/keys'
+            description: 'Secret Stripe key for receiving payments. See: https://stripe.com/docs/keys'
           stripe_key:
-            description: 'Public Stripe key для отримання платежів. See: https://stripe.com/docs/keys'
+            description: 'Public Stripe key for receiving payments. See: https://stripe.com/docs/keys'
           tags:
-            description: Визначає, які теги пропонуються новим користувачам під час вступу (розділені комами, лише літери)
-            placeholder: 'Список дійсних тегів: розділені комами, лише літери, напр. beginners,javascript,ruby,swift,kotlin'
+            description: Determines which tags are suggested to new users during onboarding (comma separated, letters only)
+            placeholder: 'List of valid tags: comma separated, letters only e.g. beginners,javascript,ruby,swift,kotlin'
           users:
-            description: Визначає, на яких користувачів пропонується стежити за новими користувачами під час адаптації (розділені комами, лише літери). Зверніть увагу, що ці користувачі відображатимуться як запасний варіант, якщо не можна запропонувати нещодавно активних коментаторів або продюсерів
-            placeholder: 'Список дійсних імен користувачів: розділені комами, лише літери, напр. ben,jess,peter,maestromac,andy,liana'
+            description: Determines which users are suggested to follow to new users during onboarding (comma separated, letters only). Please note that these users will be shown as a fallback if no recently-active commenters or producers can be suggested
+            placeholder: 'List of valid usernames: comma separated, letters only e.g. ben,jess,peter,maestromac,andy,liana'
           video:
-            description: Секретний ключ, який використовується для кодування відео AWS через VideoStatesController
+            description: Secret key used to allow AWS video encoding through the VideoStatesController
         rate_limit:
           new_days:
-            description: Кількість днів, коли користувач вважається новим. За замовчуванням це 3 дні, але ви можете повністю вимкнути це, ввівши 0.
+            description: The number of days a user is considered new. The default is 3 days, but you can disable this entirely by inputting 0.
           spam:
-            description: Окремі (не чутливі до регістру) фрази, які викликають сповіщення про спам, розділені комами.
+            description: Individual (case insensitive) phrases that trigger spam alerts, comma separated.
             placeholder: used cars near you, pokemon go hack
         smtp:
           address:
-            description: Адреса віддаленого поштового сервера
-            placeholder: напр. smtp.gmail.com
+            description: Address of the remote mail server
+            placeholder: i.e. smtp.gmail.com
           authentication:
-            description: Якщо ваш поштовий сервер вимагає аутентифікації, вам потрібно вказати тип автентифікації тут
-            placeholder: напр. plain, login, or cram_md5
+            description: If your mail server requires authentication, you need to specify the authentication type here
+            placeholder: i.e. plain, login, or cram_md5
           domain:
-            description: Якщо вам потрібно вказати домен HELO, ви можете зробити це тут
+            description: If you need to specify a HELO domain, you can do it here
           password:
-            description: Якщо ваш поштовий сервер вимагає аутентифікації, скопіюйте пароль зі свого сервера
+            description: If your mail server requires authentication, copy the password from your server
           port:
-            description: Порт, на якому працює ваш поштовий сервер
+            description: The port that your mail server runs on
             placeholder: '25'
           user_name:
-            description: Якщо ваш поштовий сервер вимагає аутентифікації, скопіюйте ім'я користувача зі свого сервера
+            description: If your mail server requires authentication, copy the username from your server
           from_email:
-            description: Адреса електронної пошти, з якої мають надсилатися листи
+            description: The email address that emails should be sent from
           reply_to:
-            description: Адреса електронної пошти, на яку користувачі можуть відповісти
+            description: The email address that users can reply to
         user_experience:
           default_font:
-            description: Визначає шрифт для читання за замовчуванням (зареєстровані користувачі можуть змінити це в налаштуваннях UX)
+            description: Determines the default reading font (registered users can change this in their UX settings)
           default_locale:
-            description: Визначає мову за замовчуванням і локалізацію Forem (наразі в експериментальній бета-версії)
+            description: Determines the default language and localization for the Forem (currently in experimental beta)
           feed_strategy:
-            description: 'Визначає підхід до основного алгоритму каналу, який використовує програма: basic або large_forem_experimental (який слід використовувати лише для спільнот більше 10 тис.)'
-            placeholder: базовий
+            description: 'Determines the main feed algorithm approach the app takes: basic or large_forem_experimental (which should only be used for 10k+ member communities)'
+            placeholder: basic
           feed_style:
-            description: Визначає, який канал за замовчуванням бачать користувачі (багатий вміст, мінімальний вміст тощо)
-            placeholder: базовий, багатий або компактний
+            description: Determines which default feed the users sees (rich content, more minimal, etc.)
+            placeholder: basic, rich, or compact
           home_feed:
-            description: Мінімальний бал, необхідний для того, щоб публікація відображалася на неавтентифікованій домашній сторінці.
+            description: Minimum score needed for a post to show up on the unauthenticated home page.
           index_minimum_score:
-            description: Мінімальний бал, необхідний для того, щоб публікація була проіндексована пошуковими системами.
+            description: Minimum score needed for a post to be indexed by search engines.
           primary_hex:
-            description: Визначає фон/облямівку кнопок тощо. Має бути достатньо темним, щоб контрастувати з білим текстом.
+            description: Determines background/border of buttons etc. Must be dark enough to contrast with white text.
           tag_feed:
-            description: Мінімальний бал, необхідний для того, щоб публікація відображалася на сторінці тегів за умовчанням.
+            description: Minimum score needed for a post to show up on default tag page.

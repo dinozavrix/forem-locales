@@ -2,29 +2,29 @@
 en:
   devise:
     failure:
-      invited: У вас є запрошення, прийміть його, щоб завершити створення облікового запису.
+      invited: You have a pending invitation, accept it to finish creating your account.
     invitations:
       edit:
-        header: Встановіть пароль
-        submit_button: Давайте почнемо
-      invitation_removed: Ваше запрошення видалено.
-      invitation_token_invalid: Запрошення недійсне!
+        header: Set your password
+        submit_button: Let's Get Started
+      invitation_removed: Your invitation was removed.
+      invitation_token_invalid: The invitation token provided is not valid!
       new:
-        header: Надіслати запрошення
-        submit_button: Надіслати запрошення
-      no_invitations_remaining: Запрошень не залишилося
-      send_instructions: Запрошення надіслано на пошту %{email}.
-      updated: Ваш пароль було встановлено успішно. Тепер ви увійшли до системи.
-      updated_not_active: Ваш пароль було встановлено успішно.
+        header: Send invitation
+        submit_button: Send an invitation
+      no_invitations_remaining: No invitations remaining
+      send_instructions: An invitation email has been sent to %{email}.
+      updated: Your password was set successfully. You are now signed in.
+      updated_not_active: Your password was set successfully.
     mailer:
       invitation_instructions:
-        accept_instructions: Ви можете прийняти запрошення, натиснувши на це посилання
-        accept: Прийняти запрошення
-        accept_until: Термін дії цього запрошення закінчується після %{due_date}.
-        hello: Привіт
-        ignore: Якщо ви не бажаєте приймати запрошення, проігноруйте цей лист. Ваш обліковий запис не буде створено доти, доки ви не перейдете за вказаним вище посиланням і не встановіть пароль.
-        someone_invited_you: Вас запросили приєднатися до спільноти %{community_name} за посиланням %{url}.
-        subject: Інструкції на запрошення
+        accept_instructions: You can accept the invitation by clicking this link
+        accept: Accept Invitation
+        accept_until: This invitation will expire after %{due_date}.
+        hello: Hello
+        ignore: If you don't want to accept the invitation, please ignore this email. Your account won't be created until you access the link above and set your password.
+        someone_invited_you: You’ve been invited to join the %{community_name} community at %{url}.
+        subject: Invitation instructions
   time:
     formats:
       devise:

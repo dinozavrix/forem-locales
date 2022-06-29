@@ -3,60 +3,60 @@ en:
   views:
     tags:
       meta:
-        title: Теги
-        description: Теги для відстеження %{community}
+        title: Tags
+        description: Tags to follow on %{community}
         og:
-          description: "%{community} - це круто!"
+          description: "%{community} is great!"
       heading:
-        default: Популярні теги
-        search_results: Результат пошуку для %{q}
+        default: Top tags
+        search_results: Search results for %{q}
       search:
         aria_labels:
-          search_input: Пошуковий запит на теги
-          submit: Пошук теґів
-        placeholder: Пошук за тегом
+          search_input: Tag search term
+          submit: Search tags
+        placeholder: Search for tag
       edit:
         meta:
-          title: Редагувати %{tag}
-        admin: "Адмін"
-        help: "Допомога"
-        view: "Подивитися"
+          title: Edit %{tag}
+        admin: "Admin"
+        help: "Help"
+        view: "View"
         form:
           pretty_name:
-            label: Гарне ім'я
-            placeholder: Ім'я відображається у верхній частині сторінки тега.
+            label: Pretty name
+            placeholder: This is the name at the top of the show page.
           bg_color_hex:
-            label: Колір тегу
+            label: Tag color
           short_summary:
-            label: Короткий опис
-            placeholder: Короткий огляд того, що це тег.
+            label: Short summary
+            placeholder: Brief overview of what this tag is all about.
           wiki_body_markdown:
-            label: Розмітка тіла Wiki
-            placeholder: Це розділ "Про сайт". Не соромтеся додавати FAQ, додаткові ресурси тощо.
+            label: Wiki body markdown
+            placeholder: This is an 'about' section. Feel free to add an FAQ, additional resources, etc.
           rules_markdown:
-            label: Правила розмітки
-            placeholder: Необов'язково - Може використовуватися для челленджів, тобто. для керівництва за участю.
-          submit: Зберегти
-      follow: Підписатися
-      following_tags: Підписка на теги
+            label: Rules markdown
+            placeholder: Optional - Can be used for challenges, i.e. submission guidelines.
+          submit: Save
+      follow: Follow
+      following_tags: Following tags
       moderator:
-        text_html: "через кому, пробіл необов'язковий. Приклад: %{code}"
+        text_html: "comma separated, space is optional. Example: %{code}"
         code: 123
-        placeholder: "через кому, пробіл необов'язковий. Приклад: 1,2,3"
+        placeholder: "comma separated, space is optional. Example: 1,2,3"
       published:
-        one: 1 опублікований пост
-        other: "%{count} постів опубліковано"
+        one: 1 post published
+        other: "%{count} posts published"
       sidebar:
-        about: 'про #%{tag}'
-        admin: Адмін
-        edit: Редагувати
-        guidelines: Правила
-        moderate: Модерація
-        mods: Модератор тега
-        new: Новий запис
-        older: 'старі пости #%{tag}'
+        about: 'about #%{tag}'
+        admin: Admin
+        edit: Edit
+        guidelines: submission guidelines
+        moderate: Moderate
+        mods: tag moderators
+        new: Create Post
+        older: 'Older #%{tag} posts'
         published:
-          one: 1 опублікований пост
-          other: "%{count} постів опубліковано"
-        sponsor: "%{tag} спонсорується"
-      sponsor: "| спонсорується %{org} ❤️"
+          one: 1 Post Published
+          other: "%{count} Posts Published"
+        sponsor: "%{tag} is sponsored by"
+      sponsor: "| Sponsored by %{org} ❤️"

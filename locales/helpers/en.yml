@@ -3,232 +3,231 @@ en:
   helpers:
     label:
       listing:
-        body_markdown: Тіло (Markdown)
-        expires_at: Дата закінчення терміну
-        location: Розташування
-        organization_id: Стаття під організацією
-        tag_list: Теги
-        title: Заголовок
+        body_markdown: Body Markdown
+        expires_at: Custom Expire Date
+        location: Location
+        organization_id: Post under an organization
+        tag_list: Tags
+        title: Title
       organization:
-        name: Назва
+        name: Name
         slug: Username
-        profile_image: Логотип профілю
-        nav_image: Логотип для світлої теми
-        dark_nav_image: Логотип для темної теми
+        profile_image: Profile image
+        nav_image: Logo for light themes
+        dark_nav_image: Logo for dark themes
         twitter_username: Twitter username
         github_username: GitHub username
-        url: Адреса сайту
-        tag_line: Слоган
-        summary: Опис
-        location: Розташування
-        email: Email підтримки
-        company_size: Розмір організації
-        story: Наша історія
-        tech_stack: Наша спеціалізація
-        cta_body_markdown: Основний текст
-        cta_button_text: Текст посилання
-        cta_button_url: Посилання
-        proof: Підтвердження
+        url: Website url
+        tag_line: Tag line
+        summary: Summary
+        location: Location
+        email: Support email
+        company_size: Organization size
+        story: Our story
+        tech_stack: Our stack
+        cta_body_markdown: Body text
+        cta_button_text: Link text
+        cta_button_url: Link url
+        proof: Proof
       podcast:
         android_url: Android url
-        description: Опис
-        feed_url: Посилання на фід
-        image: Зображення
+        description: Description
+        feed_url: Feed url
+        image: Image
         itunes_url: Itunes url
-        main_color_hex: Основний колір у hex
+        main_color_hex: Main color hex
         overcast_url: Overcast url
-        pattern_image: Зображення патерну
+        pattern_image: Pattern image
         slug: Slug
         soundcloud_url: Soundcloud url
-        title: Заголовок
+        title: Title
         twitter_username: Twitter username
-        website_url: Адреса сайту
+        website_url: Website url
       response_template:
-        title: Заголовок
-        content: Тіло коментаря (Markdown)
+        title: Title
+        content: Comment body (Markdown)
       user:
-        name: Ім'я
-        email: Пошта
-        username: Логін
-        profile_image: Аватар
+        name: Name
+        email: Email
+        username: Username
+        profile_image: Profile image
       users_notification_setting:
-        email_newsletter: Надсилати мені щотижневі інформаційні листи
-        email_digest_periodic: Періодично надсилайте мені дайджест найкращих статей з моїх тегів
-        email_tag_mod_newsletter: Надсилайте мені листи з розсилкою новин для модераторів тегів
-        email_community_mod_newsletter: Надсилати мені листи з розсилкою новин для модераторів спільноти
-        email_comment_notifications: Надсилати мені листа, коли хтось відповідає мені в темі за допомогою коментаря
-        email_follower_notifications: Надіслати мені листа, коли хтось новий підписався на мене
-        email_mention_notifications: Надсилайте мені листа, коли хтось згадує мене
-        email_badge_notifications: Надішліть мені лист електронною поштою, коли я отримаю бейдж
-        email_unread_notifications: Періодично надсилати мені нагадування про те, що я маю непрочитані повідомлення в %{community}
-        mobile_mention_notifications: Надсилайте мені push-повідомлення, коли хтось згадує мене
-        mobile_comment_notifications: Надсилати мені push-повідомлення, коли хтось відповідає мені
-        welcome_notifications: Надсилайте мені час від часу поради про те, як покращити мій %{community} досвід
-        reaction_notifications: Надсилати повідомлення, коли хтось реагує на мої коментарі або повідомлення
-        mod_roundrobin_notifications: Надсилайте мені періодично сповіщення про успіхи спільноти.
+        email_newsletter: Send me weekly newsletter emails
+        email_digest_periodic: Send me a periodic digest of top posts from my tags
+        email_tag_mod_newsletter: Send me tag moderator newsletter emails
+        email_community_mod_newsletter: Send me community moderator newsletter emails
+        email_comment_notifications: Send me an email when someone replies to me in a comment thread
+        email_follower_notifications: Send me an email when someone new follows me
+        email_mention_notifications: Send me an email when someone mentions me
+        email_badge_notifications: Send me an email when I receive a badge
+        email_unread_notifications: Send me occasional reminders that I have unread notifications on %{community}
+        mobile_mention_notifications: Send me a push notification when someone mentions me
+        mobile_comment_notifications: Send me a push notification when someone replies to me in a comment thread
+        welcome_notifications: Send me occasional tips on how to enhance my %{community} experience
+        reaction_notifications: Send notifications when someone reacts to my content, such as comments or posts
+        mod_roundrobin_notifications: Send me occasional community-success mod notifications
       users_setting:
-        feed_url: Посилання на RSS фід
+        feed_url: RSS Feed URL
     placeholder:
       organization:
-        name: Компанія
-        slug: company
+        name: Acme Inc.
+        slug: acmeinc
         url: https://yoursite.com
-        location: Київ, Україна
+        location: Halifax, Nova Scotia
         email: mail@example.com
         company_size: "..."
         story: "..."
         tech_stack: "..."
         cta_body_markdown: "..."
-        cta_button_text: Відвідати сайт компанії
+        cta_button_text: Visit Acme Site
         cta_button_url: https://example.com
         proof: "..."
       response_template:
         title: "..."
       user:
-        name: Іван Чумак
-        email: ivan.chumak@example.com
-        username: ivanchumak
+        name: John Doe
+        email: john.doe@example.com
+        username: johndoe
         feed_url: https://yoursite.com/feed
     application_helper:
-      app_logo: Логотип
+      app_logo: App logo
       follow:
         aria_label:
-          Organization: 'Підписатися на організацію: %{name}'
-          Tag: 'Підписатися на тег: %{name}'
-          User: 'Підписатися на користувача: %{name}'
-          default: 'Підписатися %{type}: %{name}'
+          Organization: 'Follow organization: %{name}'
+          Tag: 'Follow tag: %{name}'
+          User: 'Follow user: %{name}'
+          default: 'Follow %{type}: %{name}'
         text:
-          Organization: Підписатися
-          Tag: Підписатися
-          User: Підписатися
-          default: Підписатися
-      required: Обов'язково
+          Organization: Follow
+          Tag: Follow
+          User: Follow
+          default: Follow
+      required: Required
       subtitle:
-        week: Найкращі пости цього тижня
-        month: Найкращі пости цього місяця
-        year: Найкращі пости цього року
-        infinity: Всі записи
-        latest: Свіжі
+        week: Top posts this week
+        month: Top posts this month
+        year: Top posts this year
+        infinity: All posts
+        latest: Latest posts
       title_text: "%{title} - %{timeframe}"
     articles_helper:
-      logo: "%{service_name} лого"
-      most_comments: Обговорюване
-      most_reactions: За реакціями
-      most_views: За переглядами
-      recently_created: Нещодавно створені
-      recently_published: Нещодавно опубліковані
+      logo: "%{service_name} logo"
+      most_comments: Most Comments
+      most_reactions: Most Reactions
+      most_views: Most Views
+      recently_created: Recently Created
+      recently_published: Recently Published
     authentication_helper:
-      any_of_those: будь-який з них
-      email_password: Пошта та пароль
-      reminder: 'Нагадування: ви використовували %{method} для автентифікації вашого облікового запису, тому, будь ласка, використовуюйте %{dem} для входу, якщо буде потреба.'
-      that: цей
-      invite_only: Ви не зможете зробити це, доки не вимкнете режим "Тільки на запрошення".
+      any_of_those: any of those
+      email_password: Email & Password
+      reminder: 'Reminder: you used %{method} to authenticate your account, so please use %{dem} to sign in if prompted.'
+      that: that
+      invite_only: You cannot do this until you disable Invite Only Mode
     comments_helper:
       ama: ama
-      ask_me_anything: Запитай в мене щось
-      author: Автор
-      like: Впободайка
+      ask_me_anything: Ask Me Anything
+      author: Author
+      like: Like
       nbsp_likes_html:
-        one: "&nbsp;вподобайка"
-        other: "&nbsp;вподобайки"
+        one: "&nbsp;like"
+        other: "&nbsp;likes"
     feedback_messages_helper:
       offender:
         body: |
-          Доброго дня,
+          Hello,
 
-          До нашої інформації було доведено, що ви порушили Кодекс поведінки %{community} та/або Умови використання.
+          It has been brought to our attention that you have violated the %{community} Code of Conduct and/or Terms of Use.
 
-          Якщо така поведінка буде продовжуватися, ми можемо зупинити дію вашого облікового запису.
+          If this behavior continues, we may need to suspend your %{community} account.
 
-          Якщо ви вважаєте, що сталася помилка, будь ласка, дайте відповідь на цей лист, і ми подивимося ще раз.
+          If you think that there's been a mistake, please reply to this email and we will take another look.
 
-          Команда %{community}
-        subject: "Порушення Кодексу поведінки %{community}"
+          %{community} Team
+        subject: "%{community} Code of Conduct Violation"
       reporter:
         body: |
-          Доброго дня,
-
-          Дякуємо, що відзначили зміст, який може порушувати Кодекс поведінки та/або наших Умов використання %{community}. Ми вивчаємо ваше повідомлення та вживемо відповідних заходів.
-
-          Ми вдячні вам за допомогу у роботі зі створення позитивного та інклюзивного середовища для всіх!
-
-          Команда %{community}
-        subject: "Відповідь на скаргу від %{community}"
+          Hi there,
+          Thank you for flagging content that may be in violation of the %{community} Code of Conduct and/or our Terms of Use. We are looking into your report and will take appropriate
+          action.
+          We appreciate your help as we work to foster a positive and inclusive environment for all!
+          %{community} Team
+        subject: "%{community} Report"
       affected:
         body: |
-          Доброго дня,
+          Hi there,
 
-          Ми помітили декілька коментарів (зроблених іншими користувачами) до вашої посади, які порушують Кодекс поведінки та/або наші Умови використання %{community} . Ми нетерпимо ставимося до такої поведінки і вживаємо відповідних заходів.
+          We noticed some comments (made by others) on your post that violate the %{community} Code of Conduct and/or our Terms of Use. We have zero tolerance for such behavior and are
+          taking appropriate action.
 
-          Дякуємо за те, що ви такі чудові, та, будь ласка, не соромтеся писати нам з будь-якими питаннями! Ми вітаємо будь-які відгуки та ідеї, продовжуючи працювати над створенням відкритої та інклюзивної спільноти.
+          Thanks for being awesome, and please don't hesitate to email us with any questions! We welcome all feedback and ideas as we continue working to foster an open and inclusive community.
 
-          Команда %{community}
-        subject: Повідомлення від %{community}
+          %{community} Team
+        subject: Courtesy Notice from %{community}
     listing_helper:
       option:
-        one: "%{cl_name} (%{count} Кредит)"
-        other: "%{cl_name} (%{count} Кредитів)"
+        one: "%{cl_name} (%{count} Credit)"
+        other: "%{cl_name} (%{count} Credits)"
     organization_helper:
       option: "%{org_name} (%{unspent})"
     rate_limit_checker_helper:
       day:
-        one: день
-        other: днів
-      general: Скільки %{thing} може створити новий учасник (%{timeframe} або менше) за будь-який 5-хвилинний період?
+        one: day
+        other: days
+      general: How many %{thing} can a new member (%{timeframe} or less) create within any 5 minute period?
       published:
-        title: Обмеження кількості постів
-        description: Скільки постів можна створити протягом 30 секунд?
+        title: Limit number of posts created
+        description: How many posts can someone create within any 30 second period?
       antispam:
-        title: Обмеження кількості постів, створюваних новим користувачем
+        title: Limit number of posts created by a new member
       update:
-        title: Обмеження кількості оновлень посту
-        description: Скільки оновлень може бути зроблено протягом 30 секунд? Якщо вона змінилася, оновіть документацію API.
+        title: Limit number of updates to a post
+        description: How many updates can someone make within any 30 second period? Update API docs when changed.
       upload:
-        title: Обмеження кількості зображень, що завантажуються
-        description: Скільки зображень можна завантажити протягом 30 секунд?
+        title: Limit number of images uploaded
+        description: How many images can someone upload within any 30 second period?
       user:
-        title: Обмежити кількість змін, які людина може внести до свого облікового запису
-        description: Скільки змін можна внести до облікового запису користувача протягом 30 секунд?
+        title: Limit number of changes someone can make to their account
+        description: How many changes can someone make to their user account within any 30 second period?
       follow:
-        title: Обмежити кількість користувачів, на яких можна передплатити день
-        description: Скільки людей може підписатися на когось протягом дня?
+        title: Limit number of followers someone can follow daily
+        description: How many people can someone follow in a day?
       reaction:
-        title: Обмежити кількість реакцій на пост або коментар
-        description: Скільки разів людина може відреагувати на пост чи коментар протягом 30 секунд?
+        title: Limit number of reactions to a post or comment
+        description: How many times can someone react to a post or comment within any 30 second period?
       feedback:
-        title: Обмежити кількість разів, коли людина може повідомити про зловживання
-        description: Скільки разів людина може повідомити про зловживання протягом 5 хвилин?
+        title: Limit number of times someone can report abuse
+        description: How many times can someone report abuse within any 5 minute period?
       comment:
-        title: Обмеження кількості коментарів, що створюються
-        description: Скільки коментарів може створити людина протягом 30 секунд?
+        title: Limit number of comments created
+        description: How many comments can someone create within any 30 second period?
       comment_antispam:
-        title: Обмеження кількості коментарів, створюваних новим учасником
+        title: Limit number of comments created by a new member
       mention:
-        title: Обмежити кількість @-згадок у пості чи коментарі
-        description: Скільки разів людина може @-згадувати інших користувачів у своєму посту чи коментарі?
+        title: Limit number of @-mentions in a post or comment
+        description: How many times can someone @-mention other users in a post or comment?
       listing:
-        title: Обмеження кількості оголошень
-        description: Скільки оголошень можна створити протягом 1 хвилини?
+        title: Limit number of listings created
+        description: How many listings can someone create within any 1 minute period?
       organization:
-        title: Обмеження кількості організацій, що створюються
-        description: Скільки організацій можна створити протягом 5 хвилин?
+        title: Limit number of organizations created
+        description: How many organizations can someone create within any 5 minute period?
       subscription:
-        title: Обмеження кількості передплат на список розсилок
-        description: Скільки разів людина може передплатити розсилку протягом 30 секунд?
+        title: Limit number of times someone can subscribe to mailing list liquid tag
+        description: How many times can someone subscribe to a mailing list within any 30 second period?
       recipient:
-        title: Обмежити кількість загальних електронних листів, які ми надсилаємо
-        description: Скільки листів ми можемо надіслати будь-кому протягом 2 хвилин?
+        title: Limit number of general emails we send
+        description: How many emails can we send to someone within any 2 minute period?
       confirmation:
-        title: Обмежити кількість електронних листів з підтвердженням
-        description: Скільки разів ми можемо надіслати підтвердження електронною поштоюе протягом 2 хвилин?
+        title: Limit number of confirmation emails we send
+        description: How many times can we send a confirmation email to someone within a 2 minute period?
       thing:
-        posts: пости
-        коментарі: коментарі
+        posts: posts
+        comments: comments
     settings_helper:
-      advanced: Розвинений
-      beginner: Початківець
-      expert: Експерт
-      mid_level: Середній
-      novice: Новачок
+      advanced: Advanced
+      beginner: Beginner
+      expert: Expert
+      mid_level: Mid-level
+      novice: Novice
     social_link_helper:
-      n_a: Н/Д
+      n_a: N/A

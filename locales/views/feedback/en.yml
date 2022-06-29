@@ -3,18 +3,18 @@ en:
   views:
     feedback:
       meta:
-        title: Зворотній зв'язок
-      heading: Дякуємо за ваш відгук.
-      home: Повернутися на головну сторінку
+        title: Feedback
+      heading: Thank you for your report.
+      home: Return to home page
       form:
-        rude_or_vulgar: Грубість чи вульгарність
-        harassment: Утиск або розпалювання ненависті
-        spam: Спам або проблема з авторськими правами
-        listings: Невідповідне повідомлення/категорія оголошення
-        other: Інше
-        url: Повідомлений URL
+        rude_or_vulgar: Rude or vulgar
+        harassment: Harassment or hate speech
+        spam: Spam or copyright issue
+        listings: Inappropriate listings message/category
+        other: Other
+        url: Reported URL
         message:
-          subtitle: Повідомлення
-          description: Будь ласка, надайте будь-яку додаткову інформацію або контекст, які допоможуть нам зрозуміти та розібратися у ситуації.
+          subtitle: Message
+          description: Please provide any additional information or context that will help us understand and handle the situation.
           placeholder: "..."
-        submit: Надіслати відгук
+        submit: Send Feedback

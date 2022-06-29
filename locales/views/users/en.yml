@@ -4,87 +4,87 @@ en:
     users:
       meta:
         og:
-          title: "%{user} - %{community} Профіль"
+          title: "%{user} — %{community} Profile"
       comments:
         all:
-          one: %{count} коментар
-          other: Всі %{count} коментарів
+          one: All %{count} comments
+          other: All %{count} comments
         last:
-          one: Останній коментар
-          other: Останні %{count} коментарів
-        recent: Свіжі коментарі
-        view: Дивитись всю активність
+          one: Last %{count} comments
+          other: Last %{count} comments
+        recent: Recent comments
+        view: View all activity
         view_all:
-          one: Переглянути %{count} коментар
-          other: Переглянути всі %{count} коментарів
+          one: View all %{count} comments
+          other: View all %{count} comments
         view_last:
-          one: Переглянути останній коментар
-          other: Переглянути останні %{count} коментарів
+          one: View last 1 Comment
+          other: View last %{count} Comments
       github:
-        heading: GitHub Репозиторії
+        heading: GitHub Repositories
         fork: Fork
         stars:
-          one: 1 зірка
-          other: "%{count} зирок"
-      pin_icon: Закріпити
-      pinned: Закріплено
+          one: 1 star
+          other: "%{count} stars"
+      pin_icon: Pin
+      pinned: Pinned
       profile_fields:
         bio:
-          label: Біографія
-          placeholder: Коротка біографія...
-        display_email_on_profile: Відображати e-mail у профілі
+          label: Bio
+          placeholder: A short bio...
+        display_email_on_profile: Display email on profile
         location:
-          label: Розташування
-          placeholder: Київ, Україна
+          label: Location
+          placeholder: Halifax, Nova Scotia
         website:
-          label: Адреса сайту
+          label: Website URL
           placeholder: https://yoursite.com
-        education: Освіта
-        currently_learning: Зараз навчаюсь
-        currently_hacking_on: Працюю над
-        available_for: Доступний для
-        skills_languages: Навички та інструменти
-        work: Робота
+        education: Education
+        currently learning: Currently learning
+        currently hacking on: Currently hacking on
+        available for: Available for
+        skills/languages: Skills/Languages
+        work: Work
       side:
         comment:
-          icon: Коментар
+          icon: Comment
           text:
-            one: 1 коментар написаний
-            other: "%{count} коментарів написано"
-        org: Організації
+            one: 1 comment written
+            other: "%{count} comments written"
+        org: Organizations
         post:
-          icon: Пост
+          icon: Post
           text:
-            one: 1 опублікований пост
-            other: "%{count} постів опубліковано"
+            one: 1 post published
+            other: "%{count} posts published"
         tag:
-          icon: Тег
+          icon: Tag
           text:
-            one: Підписано на один тег
-            other: "Підписано на %{count} теги"
+            one: 1 tag followed
+            other: "%{count} tags followed"
       signout:
         meta:
-          title: Підтвердити вихід - %{community}
-        heading: Ви впевнені, що хочете вийти?
-        'yes': Так, виходжу
-      block: Заблокувати @%{user}
-      details: "%{user} деталі профілю"
-      dropdown: Події користувача
-      email_icon: Адреса ел. пошти
-      empty: 404 біо не знайдено
-      flag: Поскаржитися на @%{user}
-      follow: Підписатися
+          title: Confirm Signout - %{community}
+        heading: Are you sure you want to sign out?
+        'yes': Yes, sign out
+      block: Block @%{user}
+      details: "%{user} profile details"
+      dropdown: User actions
+      email_icon: Email address
+      empty: 404 bio not found
+      flag: Flag @%{user}
+      follow: Follow
       joined:
-        icon: Приєднався
-        text_html: "Приєднався\_%{date}"
-      location_icon: Розташування
-      logo: "%{user} зображення профілю"
-      more: Більше інформації про @%{user}
+        icon: Joined
+        text_html: "Joined on\_%{date}"
+      location_icon: Location
+      logo: "%{user} profile picture"
+      more: More info about @%{user}
       send_pm:
-        code: правила поведінки
-        notice_html: Всі приватні взаємодії <b>мають</b> підкорятися %{code}.
-        placeholder: Введіть повідомлення...
-        submit: Надіслати
-      social: "%{service} веб-сайт"
-      unflag: Розблокувати @%{user}
-      website: Персональний сайт
+        code: code of conduct
+        notice_html: All private interactions <b>must</b> abide by the %{code}.
+        placeholder: Enter your message here...
+        submit: Send
+      social: "%{service} website"
+      unflag: Unflag @%{user}
+      website: Personal website

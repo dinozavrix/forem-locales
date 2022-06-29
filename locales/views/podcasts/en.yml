@@ -3,34 +3,34 @@ en:
   views:
     podcasts:
       meta:
-        title: Подкасти
-        description: Відкрийте для себе подкасти для %{member}
+        title: Podcasts
+        description: Discover technical podcasts for %{member}
         og:
-          title: Подкасти на %{community}
-      browse: Огляд
-      heading: Подкасти
+          title: Podcasts on %{community}
+      browse: Browse
+      heading: Podcasts
       close: "×"
       form:
-        heading: Додати подкаст
+        heading: Suggest a Podcast
         errors:
-          one: '1 помилка при створенні подкасту:'
-          other: "%{count} помилки при створенні подкасту:."
-        owner: Я власник цього подкасту
-        return: "← повернутися "
-        suggest: Додати
-      list: подкасти
-      listen: Натисніть тут, щоб скачати/прослухати
-      source: Джерело епізоду
+          one: '1 error while creating a podcast:'
+          other: "%{count} errors while creating a podcast:"
+        owner: I am the owner of this podcast
+        return: "< return to podcasts"
+        suggest: Suggest
+      list: podcasts
+      listen: Click here to download/listen
+      source: Episode source
       statuses:
-        ssl_failed: Перевірка SSL-сертифіката не вдалася при отриманні feed_url подкаста
-        unparsable: Не вдалося спарсити rss подкасту
-        unplayable: Цей подкаст може не відтворюватися у браузері
-        unreachable: Feed_url подкасту недоступний
+        ssl_failed: SSL certificate verify failed while fetching podcast's feed_url
+        unparsable: Podcast's rss couldn't be parsed
+        unplayable: This podcast may not be playable in the browser
+        unreachable: Podcast's feed_url is not reachable
       speed: 1x
-      tag: подкаст
-      initializing: ініціалізація...
-      unsupported: Ваш браузер не підтримує аудіоелемент.
-      featured_shows: Популярні шоу
-      latest_episodes: Останні епізоди
-      suggest_a_podcast: Додати подкаст
-      view_all_podcasts: Дивитись усі подкасти
+      tag: podcast
+      initializing: initializing...
+      unsupported: Your browser does not support the audio element.
+      featured_shows: Featured shows
+      latest_episodes: Latest episodes
+      suggest_a_podcast: Suggest a Podcast
+      view_all_podcasts: View all podcasts
